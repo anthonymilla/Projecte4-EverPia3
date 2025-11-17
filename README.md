@@ -1,4 +1,4 @@
-# Projecte4-Consultoria EverPia 3
+# Projecte 4 - Consultoria EverPia 3
 
 # EverPia 3: “Sobreviure en una empresa IT”
 
