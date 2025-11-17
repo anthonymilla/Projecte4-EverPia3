@@ -21,6 +21,6 @@ Dominar l'accés remot no és una opció; és l'habilitat fonamental que ens per
 Per això, caldrà que demostreu que heu après bé els conceptes mitjançant una prova.
 
 Materials i links de suport
-- 0227. UD4. AA1. Accés remot. Disponible al Moodle del mòdul de Serveis de Xarxa.
+- UD4. AA1. Accés remot. Disponible al Moodle del mòdul de Serveis de Xarxa.
 
 [Anar a la pàgina inicial](../README.md)
