@@ -23,7 +23,7 @@ A partir de la màquina que ens proporciona el client, en aquest cas la simulem 
 
 Caldrà elaborar una guia tècnica per tal que el personal de manteniment pugui realitzar les dues accions, per tant, procureu documentar de forma acurada, incorporant aquelles imatges que siguin significatives.  
 Com és una prova de concepte i encara no sabeu si el client accepta la vostra proposta de producte, usareu **Rescuezilla** per fer la següent guia.  
-Es tracta d’una tasca individual.
+Es tracta d’una tasca **individual.**
 
 ---
 
