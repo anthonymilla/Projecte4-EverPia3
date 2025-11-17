@@ -3,7 +3,7 @@
 # PART 1. PRESENTACIÓ DEL PROJECTE I EL SEU OBJECTIU
 
 1. Presentació del projecte. [Materials i recursos](https://drive.google.com/drive/folders/1kj0PCs8CG8nieTsxNJI06-u9n1Lb2B_X?usp=drive_link)
-2. [Presentació](https://gamma.app/docs/Projecte-04-EverPia-iii-of0v5zzucvna565)
+2. **[Presentació](https://gamma.app/docs/Projecte-04-EverPia-iii-of0v5zzucvna565)**
 
 # PART 2. POSADA EN MARXA
 
