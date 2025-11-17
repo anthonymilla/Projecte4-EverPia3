@@ -113,3 +113,27 @@ L’alumne formarà part d’un equip júnior que haurà de:
 ---
 
 Aquest conjunt de reptes exigeix **visió global, constància i una actitud resolutiva** pròpia d’un perfil júnior que està a punt de fer el salt cap a la seva pròpia trajectòria.
+
+---
+
+## Tasques
+- [Tasca0](/Tasca00)
+- [Tasca1](/Tasca01)
+- [Tasca2](/Tasca02)
+- [Tasca3](/Tasca03)
+- [Tasca4](/Tasca04)
+- [Tasca5](/Tasca05)
+- [Tasca6](/Tasca06)
+- [Tasca7](/Tasca07)
+- [Tasca8](/Tasca08)
+- [Tasca9](/Tasca09)
+- [Tasca10](/Tasca10)
+- [Tasca11](/Tasca11)
+- [Tasca12](/Tasca12)
+- [Tasca13](/Tasca13)
+- [Tasca14](/Tasca14)
+- [Tasca15](/Tasca15)
+- [Profucte1](/Producte01)
+- [Profucte2](/Producte02)
+- [Profucte3](/Producte03)
+
