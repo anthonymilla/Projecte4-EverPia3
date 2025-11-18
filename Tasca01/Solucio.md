@@ -3,7 +3,7 @@
 | Fase 1: Treball individual |
 |----------------------------------------|
 
-**1. Què copiar?** Quan copien el que hem de fer es prioritzar, el servidor és la prioritat perquè concentra les dades més crítiques, aleshores:
+**1. Què copiar?** Quan copiem el que hem de fer es prioritzar, el servidor és la prioritat perquè concentra les dades més crítiques, aleshores:
 - **Servidor**:  
   - Base de dades  
   - Fitxers compartits  
