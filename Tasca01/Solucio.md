@@ -1,6 +1,6 @@
 
 
-## Fase 1: Treball individual (Resum)
+## Fase 1: Treball individual 
 
 **1. Què copiar?** Quan copien el que hem de fer es prioritzar, el servidor és la prioritat perquè concentra les dades més crítiques, aleshores:
 - **Servidor**:  
@@ -13,9 +13,9 @@
 
 ---
 
-## 2️⃣ Periodicitat i Tipus de Còpia
-- **Diària** → Còpia **incremental** (només canvis del dia)  
-- **Setmanal** → Còpia **diferencial** (canvis des de l’última còpia completa)  
+## 2. Periodicitat i Tipus de Còpia
+- Està la diaria, la qual és una còpia incremental, que són només els canvis del dia.
+- La setmanal, la qual és una còpia diferencial, que són els canvis des de l'última còpia completa.
 - **Mensual** → Còpia **completa** (tot el servidor)  
 
 ---
