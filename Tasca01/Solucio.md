@@ -23,7 +23,7 @@
 ---
 
 ## 3. Mitjans i Ubicació (Regla 3-2-1)
-- **Mitjans recomanats i que utilitzaria**:  
+- **Mitjà de còpia que utilitzaria**:  
   - NAS (intern), ja què és un emmagatzematge connectat a la xarxa per accedir a dades fàcilment.
   - Núvol (extern), ja què és un emmagatzematge en línia per accedir a les dades des de qualsevol lloc.  
   - Disc dur extern (físic), ja què és un dispositiu físic per guardar dades que pots portar amb tu.
@@ -33,6 +33,12 @@
   - 2 mitjans diferents, básicament guardar les còpies en 2 tipus diferents de mitjans (ex. NAS i núvol). 
   - 1 fora de l’empresa (Cloud), una còpia ha d'estar fora de la teva empresa (millor al núvol) per protegir-te de pèrdues.
 
+**La còpia més recent s'hauria de guardar:**
+
+- En el núvol: per accés fàcil des de qualsevol lloc.
+- En un disc dur extern: per tenir una còpia física al teu abast.
+
+Això segueix la regla 3-2-1, ja que recomana tenir 3 còpies de les dades, en 2 mitjans diferents, i 1 fora de l’empresa per garantir la seguretat.
 
 ---
 
