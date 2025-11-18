@@ -23,7 +23,7 @@
 ---
 
 ## 3. Mitjans i Ubicació (Regla 3-2-1)
-- **Mitjans recomanats**:  
+- **Mitjans recomanats i que utilitzaria**:  
   - NAS (intern), ja què és un emmagatzematge connectat a la xarxa per accedir a dades fàcilment.
   - Núvol (extern), ja què és un emmagatzematge en línia per accedir a les dades des de qualsevol lloc.  
   - Disc dur extern (físic), ja què és un dispositiu físic per guardar dades que pots portar amb tu.
