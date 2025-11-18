@@ -25,10 +25,11 @@
 - **Mitjans recomanats**:  
   - NAS (intern), ja què és un emmagatzematge connectat a la xarxa per accedir a dades fàcilment.
   - Núvol (extern), ja què és un emmagatzematge en línia per accedir a les dades des de qualsevol lloc.  
-  - Disc dur extern (físic), ja què és un dispositiu físic per guardar dades que pots portar amb tu.  
+  - Disc dur extern (físic), ja què és un dispositiu físic per guardar dades que pots portar amb tu.
+
 - **Regla 3-2-1**:  
   - 3 còpies totals, necessites 3 còpies de les teves dades (1 original + 2 còpies). Aixís tens més tranquilitat en general i més eguretat. 
-  - 2 mitjans diferents, guardar les còpies en 2 tipus diferents de mitjans (ex. NAS i núvol). 
+  - 2 mitjans diferents, básicament guardar les còpies en 2 tipus diferents de mitjans (ex. NAS i núvol). 
   - 1 fora de l’empresa (Cloud), una còpia ha d'estar fora de la teva empresa (millor al núvol) per protegir-te de pèrdues.
 
 
