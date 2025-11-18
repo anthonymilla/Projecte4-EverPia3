@@ -15,9 +15,10 @@
 ---
 
 ## 2. Periodicitat i Tipus de Còpia
-- Està la diaria, la qual és una còpia incremental, que són només els canvis del dia.
-- La setmanal, la qual és una còpia diferencial, que són els canvis des de l'última còpia completa.
-- La Mensual què és una còpia completa (tot el servidor)  
+**Calendari bàsic per a la setmana:**
+- Diari, la qual serà una còpia incremental, que són només els canvis del dia.
+- Setmanal, aquesta serà una còpia diferencial, que són els canvis des de l'última còpia completa.
+- Mensual, la qual serà una còpia completa (tot el servidor). 
 
 ---
 
