@@ -6,11 +6,11 @@
 **1. Què copiar?** Quan copiem el que hem de fer es prioritzar, el servidor és la prioritat perquè concentra les dades més crítiques, aleshores:
 - **Servidor**:  
   - Base de dades  
-  - Fitxers compartits  
-  - Configuracions del sistema  
+  - Documents de Projectes
+  - Carpetes Personals dels Usuaris  
 - **Equips clients (10 PCs)**:  
-  - No cal còpia completa  
-  - Només documents importants si no estan al servidor  
+  - No cal còpia completa (la feina principal és al servidor)  
+  - Només còpia dels documents importants si no estan al servidor (Documents)  
 
 ---
 
