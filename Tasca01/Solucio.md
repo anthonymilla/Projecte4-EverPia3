@@ -1,6 +1,8 @@
-# 📌 Fase 1: Treball individual (Resum)
 
-## 1️⃣ Què copiar? (Priorització)
+
+## Fase 1: Treball individual (Resum)
+
+**1. Què copiar?** Quan copien el que hem de fer es prioritzar, el servidor és la prioritat perquè concentra les dades més crítiques, aleshores:
 - **Servidor**:  
   - Base de dades  
   - Fitxers compartits  
@@ -8,8 +10,6 @@
 - **Equips clients (10 PCs)**:  
   - No cal còpia completa  
   - Només documents importants si no estan al servidor  
-
-👉 El servidor és la prioritat perquè concentra les dades més crítiques.
 
 ---
 
