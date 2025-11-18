@@ -88,6 +88,5 @@ Treballant per parelles:
 - Xataka. Backup 3 - 2 - 1, el método definitivo para mantener a salvo tus datos. [YouTube]. Setembre 2017. Disponible a:
  https://youtu.be/PM_M4Iz6I4o?si=F7DRyDDTZE3hjWn8
 
-[Anar a la solució](../Tasca01/Solucio.md)
-
+[Anar a la solució](../Tasca01/Solucio.md)     
 [Anar a la pàgina inicial](../README.md)
