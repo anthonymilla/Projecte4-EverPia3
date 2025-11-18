@@ -14,7 +14,7 @@
 
 ---
 
-## 2. Periodicitat i Tipus de Còpia
+**2. Periodicitat i Tipus de Còpia**
 **Calendari bàsic per a la setmana:**
 - Diari, la qual serà una còpia incremental, que són només els canvis del dia.
 - Setmanal, aquesta serà una còpia diferencial, que són els canvis des de l'última còpia completa.
@@ -22,7 +22,7 @@
 
 ---
 
-## 3. Mitjans i Ubicació (Regla 3-2-1)
+**3. Mitjans i Ubicació (Regla 3-2-1)**
 - **Mitjà de còpia que utilitzaria**:  
   - NAS (intern), ja què és un emmagatzematge connectat a la xarxa per accedir a dades fàcilment.
   - Núvol (extern), ja què és un emmagatzematge en línia per accedir a les dades des de qualsevol lloc.  
