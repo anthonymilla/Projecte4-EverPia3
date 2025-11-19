@@ -9,8 +9,8 @@
   - Documents de Projectes
   - Carpetes Personals dels Usuaris  
 - **Equips clients (10 PCs)**:  
-  - No cal còpia completa (la feina principal és al servidor)  
-  - Només còpia dels documents importants si no estan al servidor (Documents)  
+  - No cal còpia completa (ja què la feina principal és al servidor)  
+  - Només còpia dels documents importants si no estan al servidor (Documents)
 
 ---
 
