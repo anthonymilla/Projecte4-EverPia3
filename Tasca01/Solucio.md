@@ -24,9 +24,11 @@
 
 **3. Mitjans i Ubicació (Regla 3-2-1)**
 - **Mitjà de còpia que utilitzaria**:  
-  - NAS (intern), ja què és un emmagatzematge connectat a la xarxa per accedir a dades fàcilment.
+  - NAS (intern), ja què és un emmagatzematge connectat a la xarxa per accedir a dades fàcilment. 
   - Núvol (extern), ja què és un emmagatzematge en línia per accedir a les dades des de qualsevol lloc.  
   - Disc dur extern (físic), ja què és un dispositiu físic per guardar dades que pots portar amb tu.
+
+- El NAS és la millor opció com a mitjà principal per la seva rapidesa, permet restauracions molt ràpides (compleix RTO < 4h), el seu Accés local, és fàcil i veloç accedir a les dades des de la mateixa xarxa i perquè és centralitzat, guarda totes les còpies en un sol lloc accessible.
 
 - **Regla 3-2-1**:  
   - 3 còpies totals, necessites 3 còpies de les teves dades (1 original + 2 còpies). Aixís tens més tranquilitat en general i més seguretat. 
