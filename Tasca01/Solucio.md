@@ -16,9 +16,9 @@
 
 **2. Periodicitat i Tipus de Còpia**
 **Calendari bàsic per a la setmana:**
-- Diari, la qual serà una còpia incremental, que són només els canvis del dia.
-- Setmanal, aquesta serà una còpia diferencial, que són els canvis des de l'última còpia completa.
-- Mensual, la qual serà una còpia completa (tot el servidor). 
+- Diari, la qual serà una còpia incremental, que són només els canvis del dia. Es fan còpies de seguretat diàries (només dels canvis) per estalviar temps i espai.
+- Setmanal, aquesta serà una còpia diferencial, que són els canvis des de l'última còpia completa. Hi ha un manual (manual de configuració diferencial) per arreglar coses ràpidament utilitzant aquestes còpies.
+- Mensual, la qual serà una còpia completa (tot el servidor). Cada mes, es fa una còpia completa del sistema per tenir una seguretat extra.
 
 ---
 
