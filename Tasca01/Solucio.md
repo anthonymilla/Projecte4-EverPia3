@@ -35,12 +35,12 @@
   - 2 mitjans diferents, básicament guardar les còpies en 2 tipus diferents de mitjans (ex. NAS i núvol). 
   - 1 fora de l’empresa (Cloud), una còpia ha d'estar fora de la teva empresa (millor al núvol) per protegir-te de pèrdues.
 
-**La còpia més recent s'hauria de guardar:**
+**Com sería l'ubicació seguint la regla 3-2-1 de còpies de seguretat:** 
+- **3 còpies**: Original + NAS + Cloud
+- **2 tipus de mitjans**: NAS i Cloud
+- **1 fora de l’empresa**: Núvol
 
-- En el núvol: per accés fàcil des de qualsevol lloc.
-- En un disc dur extern: per tenir una còpia física al teu abast.
-
-Això segueix la regla 3-2-1, ja que recomana tenir 3 còpies de les dades, en 2 mitjans diferents, i 1 fora de l’empresa per garantir la seguretat.
+La còpia més recent s’ha de guardar al **NAS intern**, perquè és el més ràpid i fàcil de restaurar en cas de problema.
 
 ---
 
