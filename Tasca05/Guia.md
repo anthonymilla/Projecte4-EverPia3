@@ -31,11 +31,13 @@ Ara fem ip a per veure la ip del adaptador de només amfitrió.
 
 ![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge09.png)
 
+Ara anem a la màquina Windows per comprovar la connexió
 
+![Ara anem a la màquina Windows per comprovar la connexió](img/Imatge10.png)
 
-![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge10.png)
+![Ara anem a la màquina Windows per comprovar la connexió](img/Imatge11.png)
 
-![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge11.png)
+![Ara anem a la màquina Windows per comprovar la connexió](img/Imatge12.png)
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
