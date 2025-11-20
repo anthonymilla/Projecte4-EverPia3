@@ -39,6 +39,13 @@ Ara anem a la màquina Windows per comprovar la connexió
 
 ![Ara anem a la màquina Windows per comprovar la connexió](img/Imatge12.png)
 
+Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root y li posem una contrasenya (usuari).
+
+![Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root y li posem una contrasenya (usuari).](img/Imatge13.png)
+
+
+
+
 
 [Anar a l'enunciat](../Tasca01/README.md)  
 [Anar a la pàgina inicial](../README.md)
