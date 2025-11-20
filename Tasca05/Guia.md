@@ -3,7 +3,7 @@
 | Pràctica SSH |
 |----------------------------------------|
 
-Instal·lem el ssh amb la seguent comanda
+
 
 ![hola](img/Imatge01.png)
 
