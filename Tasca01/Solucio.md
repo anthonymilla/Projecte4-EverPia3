@@ -44,6 +44,29 @@ Això segueix la regla 3-2-1, ja que recomana tenir 3 còpies de les dades, en 2
 
 ---
 
+| Fase 2: Treball per parelles – Proposta Unificada |
+|----------------------------------------|
+
+## **Esquema 3-2-1 de Còpies**
+
+| **Element**             | **Proposta de la Parella**                                                                                                                                                                                      | **Justificació**                                                                                                                                    |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Dades Crítiques**     | - Bases de Dades (Comptabilitat i Clients): Crítiques i d’ús diari.<br>- Documents de Projectes: Plànols, especificacions tècniques.<br>- Carpetes Personals dels Usuaris: Són mportants per la feina. | Les Bases de Dades són super importants per la feina diària, els projectes són essencials per als serveis i les carpetes personals contenen informació de treball i això també és molt important. |
+| **Periodicitat (BD)**   | - Cada 4 hores: còpia incremental de les Bases de Dades.<br>- Diària: còpia incremental del servidor.<br>- Setmanal: còpia completa.<br>- Mensual: còpia completa per conservar un historial.                       | Complir l’objectiu de pèrdua màxima de dades (RPO), que vol dir que les Bases de Dades no poden perdre més de 4 hores de feina. A més, assegurem la protecció general fent còpies freqüents i còpies completes cada cert temps.                                                             |
+| **Tipus de Còpia (BD)** | - Incremental: cada 4 hores per Bases de Dades i diària per altres dades.<br>- Diferencial: setmanal per projectes i carpetes.<br>- Completa: mensual per tot el servidor.                                      | Les còpies incrementals estalvien espai i temps, les còpies diferencials faciliten la restauració i les còpies completes garanteixen que es conserva tota la informació.                                             |
+| **Mitjà 1 (Local)**     | NAS intern per còpies diàries i setmanals.                                                                                                                                                                  | Restauració ràpida dins l’empresa, assegurant que es pot recuperar tot en menys de 4 hores.                                                                                               |
+| **Mitjà 2 (Extern)**    | Núvol per còpia fora de l’empresa + Disc dur extern per còpia mensual.                                                                                                                                  | El núvol protegeix davant desastres físics (com incendis o robatoris) i el disc dur extern és una còpia addicional que es pot guardar fora de l’empresa.                                                                   |
+
+---
+
+## **Regla 3-2-1 aplicada**
+
+*   3 còpies: Original + NAS + Núvol/Disc dur
+*   2 mitjans diferents: NAS i Cloud
+*   1 fora de l’empresa: Núvol
+
+---
+
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
