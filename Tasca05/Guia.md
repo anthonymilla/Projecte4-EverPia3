@@ -3,9 +3,39 @@
 | Pràctica SSH |
 |----------------------------------------|
 
+A la màquina de ubuntu server, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.
+
+![A la màquina de ubuntu server, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.](img/Imatge01.png)
+
+![A la màquina de ubuntu server, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.](img/Imatge02.png)
+
+Entrem i el primer que fem és editar el netplan.
+
+![Entrem i el primer que fem és editar el netplan.](img/Imatge03.png)
+
+![Entrem i el primer que fem és editar el netplan.](img/Imatge04.png)
+
+![Entrem i el primer que fem és editar el netplan.](img/Imatge05.png)
+
+Instal·lem el ssh amb la següent comanda
+
+![Instal·lem el ssh amb la següent comanda](img/Imatge06.png)
+
+Després l’habilitem, reiniciem i comprovem l’estat.
+
+![Després l’habilitem, reiniciem i comprovem l’estat.](img/Imatge07.png)
+
+![Després l’habilitem, reiniciem i comprovem l’estat.](img/Imatge08.png)
+
+Ara fem ip a per veure la ip del adaptador de només amfitrió.
+
+![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge09.png)
 
 
-![hola](img/Imatge01.png)
+
+![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge10.png)
+
+![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge11.png)
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
