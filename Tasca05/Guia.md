@@ -19,17 +19,33 @@ Entrem i el primer que fem és editar el netplan.
 
 **Instal·lem el ssh amb la següent comanda**
 
+```
+sudo apt install ssh
+```
+
 ![Instal·lem el ssh amb la següent comanda](img/Imatge06.png)
 
 Després l’habilitem, reiniciem i comprovem l’estat.
+```
+sudo systemctl enable ssh
+```
+```
+sudo systemctl restart ssh
+```
+```
+sudo systemctl status ssh
+```
 
 ![Després l’habilitem, reiniciem i comprovem l’estat.](img/Imatge07.png)
 
 ![Després l’habilitem, reiniciem i comprovem l’estat.](img/Imatge08.png)
 
-**Ara fem ip a per veure la ip del adaptador de només amfitrió.**
+**Ara fem: ip a, per veure la ip del adaptador de només amfitrió.**
+```
+ip a
+```
 
-![Ara fem ip a per veure la ip del adaptador de només amfitrió.](img/Imatge09.png)
+![Ara fem: ip a, per veure la ip del adaptador de només amfitrió.](img/Imatge09.png)
 
 Ara anem a la màquina Windows per comprovar la connexió
 
@@ -39,9 +55,12 @@ Ara anem a la màquina Windows per comprovar la connexió
 
 ![Ara anem a la màquina Windows per comprovar la connexió](img/Imatge12.png)
 
-**Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root y li posem una contrasenya (usuari).**
+**Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root i li posem una contrasenya (usuari).**
+```
+sudo passwd root
+```
 
-![Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root y li posem una contrasenya (usuari).](img/Imatge13.png)
+![Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root i li posem una contrasenya (usuari).](img/Imatge13.png)
 
 **Ara mostrem la configuració relativa als usuaris a l’arxiu sshd_config: usuarios permesos, engabiat, etc. Habilitem només a un usuari per accedir remotament i comprovem com altres no hi poden conectar.**
 
