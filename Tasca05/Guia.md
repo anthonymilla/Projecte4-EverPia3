@@ -95,7 +95,7 @@ Ara seguidament posem la comanda; ls.\ssh\, i mirarem dins del directori de la c
 
 ![Ara seguidament posem la comanda; ls.\ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.](img/Imatge21.png)
 
-Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda.    
+Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda:  
 
 ![Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda.](img/Imatge23.png)
 
