@@ -3,11 +3,11 @@
 | Pràctica SSH |
 |----------------------------------------|
 
-A la màquina de ubuntu server, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.
+A la màquina d'Ubuntu Server i Windows, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.
 
-![A la màquina de ubuntu server, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.](img/Imatge01.png)
+![A la màquina d'Ubuntu Server i Windows, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.](img/Imatge01.png)
 
-![A la màquina de ubuntu server, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.](img/Imatge02.png)
+![A la màquina d'Ubuntu server i Windows, en xarxa, el primer adaptador el posem/deixem en NAT i el segon en Adaptador de només l’amfitrió.](img/Imatge02.png)
 
 Entrem i el primer que fem és editar el netplan.
 
