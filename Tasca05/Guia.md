@@ -140,7 +140,7 @@ En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agr
 
 ![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge36.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge37.png)
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge38.png)
 
 ![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge388.png)
 
