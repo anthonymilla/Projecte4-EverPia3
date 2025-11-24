@@ -118,6 +118,8 @@ Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans.
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge28.png)
 
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge29.png)
+
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
