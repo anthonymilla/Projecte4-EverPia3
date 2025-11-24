@@ -128,6 +128,21 @@ En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agr
 
 
 
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge31.png)
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge32.png)
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge33.png)
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge34.png)
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge35.png)
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge36.png)
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge37.png)
+
+
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
