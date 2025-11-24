@@ -17,7 +17,7 @@ Entrem i el primer que fem és editar el netplan.
 
 ![Entrem i el primer que fem és editar el netplan.](img/Imatge05.png)
 
-**Instal·lem el ssh amb la següent comanda.**
+**Instal·lem el ssh amb la següent comanda:**
 
 ```
 sudo apt install ssh
@@ -40,14 +40,14 @@ sudo systemctl status ssh
 
 ![Després l’habilitem, reiniciem i comprovem l’estat.](img/Imatge08.png)
 
-**Ara fem: ip a, per veure la ip del adaptador de només amfitrió.**
+Ara fem: ip a, per veure la ip del adaptador de només amfitrió.
 ```
 ip a
 ```
 
 ![Ara fem: ip a, per veure la ip del adaptador de només amfitrió.](img/Imatge09.png)
 
-Ara anem a la màquina Windows per comprovar la connexió
+Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.
 
 ![Ara anem a la màquina Windows per comprovar la connexió](img/Imatge10.png)
 
