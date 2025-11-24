@@ -97,9 +97,12 @@ Ara seguidament posem la comanda; ls.\ssh\, i mirarem dins del directori de la c
 
 Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda:  
 
-![Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda.](img/Imatge23.png)
+![Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda.](img/Imatge22.png)
 
 Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. 
+
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge23.png)
+
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge24.png)
 
@@ -114,9 +117,6 @@ Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans.
 
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge28.png)
-
-
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge29.png)
 
 
 
