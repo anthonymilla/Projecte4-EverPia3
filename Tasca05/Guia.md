@@ -103,6 +103,7 @@ Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans.
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge23.png)
 
+Ara anem a Windows i posem la següent comanda per fer la comprovació de que ens podem connectar a la màquina ubuntu sense que ens demani contrasenya.
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge24.png)
 
@@ -117,6 +118,7 @@ Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans.
 
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge28.png)
+
 
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge29.png)
 
