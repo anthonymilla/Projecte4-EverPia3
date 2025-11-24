@@ -126,18 +126,21 @@ En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agr
 
 ![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge30.png)
 
+Després desactivem el Firewall, per això anem Firewall i protecció de xarxa i després a Red pública i desactivem. Desactivem el tallafoc per permetre la connexió SSH entre les màquines sense que Windows bloquegi el tràfic.
 
+![Després desactivem el Firewall, per això anem Firewall i protecció de xarxa i després a Red pública i desactivem. Desactivem el tallafoc per permetre la connexió SSH entre les màquines sense que Windows bloquegi el tràfic.](img/Imatge31.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge31.png)
+![Després desactivem el Firewall, per això anem Firewall i protecció de xarxa i després a Red pública i desactivem. Desactivem el tallafoc per permetre la connexió SSH entre les màquines sense que Windows bloquegi el tràfic.](img/Imatge32.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge32.png)
+![Després desactivem el Firewall, per això anem Firewall i protecció de xarxa i després a Red pública i desactivem. Desactivem el tallafoc per permetre la connexió SSH entre les màquines sense que Windows bloquegi el tràfic.](img/Imatge33.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge33.png)
+Ara executem el powershell com administrador.
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge34.png)
+![Ara executem el powershell com administrador.](img/Imatge34.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge35.png)
+I iniciem en servei de server SSH.
 
+![I iniciem en servei de server SSH.](img/Imatge35.png) 
 ![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge36.png)
 
 ![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge38.png)
