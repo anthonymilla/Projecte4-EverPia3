@@ -141,15 +141,24 @@ Ara executem el powershell com administrador.
 I iniciem en servei de server SSH.
 
 ![I iniciem en servei de server SSH.](img/Imatge35.png) 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge36.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge38.png)
+Posem aquesta comanda per què cada vegada que iniciem la màquina s’activi el servei.
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge388.png)
+![Posem aquesta comanda per què cada vegada que iniciem la màquina s’activi el servei.](img/Imatge36.png)
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge389.png)
+Posem; ipconfig, per veure la IP de l’adaptador de només amfitrió i després amb aquella IP ens puguem connectar des de l'Ubuntu.
 
-![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge40.png)
+![Posem; ipconfig, per veure la IP de l’adaptador de només amfitrió i després amb aquella IP ens puguem connectar des de l'Ubuntu.](img/Imatge38.png)
+
+Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.
+
+![Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.](img/Imatge388.png)
+
+![Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.](img/Imatge389.png)
+
+![Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.](img/Imatge40.png)
+
+
 
 
 
