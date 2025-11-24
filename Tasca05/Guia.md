@@ -101,9 +101,17 @@ Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh ale
 
 Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. 
 
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge23.png)
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge24.png)
 
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge25.png)
 
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge26.png)
+
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge27.png)
+
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge28.png)
+
+![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge29.png)
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
