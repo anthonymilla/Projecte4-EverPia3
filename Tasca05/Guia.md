@@ -124,6 +124,8 @@ En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agr
 
 ![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge29.png)
 
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge30.png)
+
 
 
 
