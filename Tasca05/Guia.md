@@ -105,22 +105,26 @@ Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans.
 
 Ara anem a Windows i posem la següent comanda per fer la comprovació de que ens podem connectar a la màquina ubuntu sense que ens demani contrasenya.
 
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge24.png)
+![Ara anem a Windows i posem la següent comanda per fer la comprovació de que ens podem connectar a la màquina ubuntu sense que ens demani contrasenya.](img/Imatge24.png)
+
+Ara anirem a configuració, sistema, anem a características opcionals i cliquem a veure característiques (el que volem és poder tenir el servidor OpenSSH). 
+
+![Ara anirem a configuració, sistema, anem a características opcionals i cliquem a veure característiques (el que volem és poder tenir el servidor OpenSSH). ](img/Imatge25.png)
+
+![Ara anirem a configuració, sistema, anem a características opcionals i cliquem a veure característiques (el que volem és poder tenir el servidor OpenSSH). ](img/Imatge26.png)
 
 
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge25.png)
+![Ara anirem a configuració, sistema, anem a características opcionals i cliquem a veure característiques (el que volem és poder tenir el servidor OpenSSH). ](img/Imatge27.png)
+
+Cliquem a veure les característiques disponibles.
+
+![Cliquem a veure les característiques disponibles.](img/Imatge28.png)
+
+En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.
+
+![En característiques disponibles buscarem OpenSSH, marcarem la casella i l’agregarem.](img/Imatge29.png)
 
 
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge26.png)
-
-
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge27.png)
-
-
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge28.png)
-
-
-![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge29.png)
 
 
 
