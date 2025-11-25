@@ -53,7 +53,7 @@ Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permi
 
 ![Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.](img/Imatge11.png)
 
-Verifiquem el hostname
+Verifiquem el hostname:
 ```
 hostname
 ```
