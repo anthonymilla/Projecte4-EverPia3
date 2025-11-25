@@ -53,6 +53,11 @@ Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permi
 
 ![Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.](img/Imatge11.png)
 
+Verifiquem el hostname
+```
+hostname
+```
+
 ![Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.](img/Imatge12.png)
 
 Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root i li posem una contrasenya (usuari).
