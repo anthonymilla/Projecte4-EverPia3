@@ -165,6 +165,21 @@ Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les
 
 
 
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
+
+![hola](img/Imatge41.png) 
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
