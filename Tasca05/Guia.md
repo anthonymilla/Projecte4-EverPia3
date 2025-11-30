@@ -11,9 +11,19 @@ A la màquina d'Ubuntu Server i Windows, en xarxa, el primer adaptador el posem/
 
 Entrem i el primer que fem és editar el netplan.
 
+```
+sudo nano /etc/netplan/50-cloud-init.yaml
+```
+
 ![Entrem i el primer que fem és editar el netplan.](img/Imatge03.png)
 
 ![Entrem i el primer que fem és editar el netplan.](img/Imatge04.png)
+
+Apliquem canvis
+
+```
+sudo netplan apply
+```
 
 ![Entrem i el primer que fem és editar el netplan.](img/Imatge05.png)
 
@@ -49,6 +59,10 @@ ip a
 
 Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.
 
+```
+ssh usuari@IP-del-servidor
+```
+
 ![Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.](img/Imatge10.png)
 
 ![Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.](img/Imatge11.png)
@@ -58,28 +72,29 @@ Verifiquem el hostname:
 hostname
 ```
 
-![Ara anem a la màquina Windows per comprovar la connexió. Quan ens demani permisos diem que sí i posem la contrasenya.](img/Imatge12.png)
+![Verifiquem el hostname](img/Imatge12.png)
 
-Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root i li posem una contrasenya (usuari).
+Anem a l'Ubuntu, habilitem l’usuari root, fem sudo passwd root i li posem una contrasenya (usuari).
 ```
 sudo passwd root
 ```
 
-![Habilitem l’usuari root a l’Ubuntu, fem sudo passwd root i li posem una contrasenya (usuari).](img/Imatge13.png)
+![Anem a l'Ubuntu, habilitem l’usuari root, fem sudo passwd root i li posem una contrasenya (usuari).](img/Imatge13.png)
 
-Ara mostrem la configuració relativa als usuaris a l’arxiu sshd_config: usuarios permesos, engabiat, etc. Habilitem només a un usuari per accedir remotament i comprovem com altres no hi poden conectar. 
-Entrem al següent arxiu, anem al final i afegim la següent línia. 
+Seguidament entrem al següent arxiu, anem al final i afegim la següent línia. 
 
-![Ara mostrem la configuració relativa als usuaris a l’arxiu sshd_config: usuarios permesos, engabiat, etc. Habilitem només a un usuari per accedir remotament i comprovem com altres no hi poden conectar. 
-Entrem al següent arxiu, anem al final i afegim la següent línia. ](img/Imatge14.png)
+```
+sudo nano /etc/ssh/sshd_config
+```
 
-![Ara mostrem la configuració relativa als usuaris a l’arxiu sshd_config: usuarios permesos, engabiat, etc. Habilitem només a un usuari per accedir remotament i comprovem com altres no hi poden conectar. 
-Entrem al següent arxiu, anem al final i afegim la següent línia. ](img/Imatge15.png)
+![Seguidament entrem al següent arxiu, anem al final i afegim la següent línia. ](img/Imatge14.png)
 
-![Ara mostrem la configuració relativa als usuaris a l’arxiu sshd_config: usuarios permesos, engabiat, etc. Habilitem només a un usuari per accedir remotament i comprovem com altres no hi poden conectar. 
-Entrem al següent arxiu, anem al final i afegim la següent línia. ](img/Imatge16.png)
+![Seguidament entrem al següent arxiu, anem al final i afegim la següent línia. ](img/Imatge15.png)
+
+![Seguidament entrem al següent arxiu, anem al final i afegim la següent línia. ](img/Imatge16.png)
 
 Fem login de manera local amb l’usuari root.
+
 ```
 su - root
 ```
@@ -88,27 +103,55 @@ su - root
 
 Ara anem a Windows, fem ssh amb l’usuari root i veurem com ens denega l’accés.
 
+```
+ssh root@IP-del-servidor
+```
+
 ![Ara anem a Windows, fem ssh amb l’usuari root i veurem com ens denega l’accés.](img/Imatge18.png)
 
 Ara posem la següent comanda per generar alguns codis RSA.
 
+```
+ssh-keygen -t rsa
+```
+
 ![Ara posem la següent comanda per generar alguns codis RSA.](img/Imatge19.png)
 
-Ara seguidament posem la comanda; ls.\ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.
+Ara seguidament posem la comanda; ls .\.ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.
 
-![Ara seguidament posem la comanda; ls.\ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.](img/Imatge20.png)
+```
+ls .\.ssh\
+```
 
-![Ara seguidament posem la comanda; ls.\ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.](img/Imatge21.png)
+![Ara seguidament posem la comanda; ls .\.ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.](img/Imatge20.png)
 
-Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda:  
+```
+scp .\.ssh\id_rsa.pub usuari@IP-del-servidor:/home/usuari
+```
+
+![Ara seguidament posem la comanda; ls .\.ssh\, i mirarem dins del directori de la carpeta ssh els arxius que hi han creats, copiarem a la màquina ubuntu el que acaba en .pub i el copiarem amb la comanda scp.](img/Imatge21.png)
+
+Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda: 
+
+```
+touch .ssh/authorized_keys
+```
 
 ![Anem a ubuntu i creem el següent arxiu, ha d’estar dins de la carpeta ssh aleshores el crearem amb la següent comanda.](img/Imatge22.png)
 
 Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. 
 
+```
+cat id_rsa.pub >> .ssh/authorized_keys_
+```
+
 ![Seguidament copiem la clau id_rsa.pub dins del arxiu que hem creat abans. ](img/Imatge23.png)
 
 Ara anem a Windows i posem la següent comanda per fer la comprovació de que ens podem connectar a la màquina ubuntu sense que ens demani contrasenya.
+
+```
+ssh usuari@IP-del-servidor
+```
 
 ![Ara anem a Windows i posem la següent comanda per fer la comprovació de que ens podem connectar a la màquina ubuntu sense que ens demani contrasenya.](img/Imatge24.png)
 
@@ -145,41 +188,65 @@ Ara executem el powershell com administrador.
 
 I iniciem en servei de server SSH.
 
+```
+Start-Service sshd
+```
+
 ![I iniciem en servei de server SSH.](img/Imatge35.png) 
 
 Posem aquesta comanda per què cada vegada que iniciem la màquina s’activi el servei.
+
+```
+Set-Service -Name sshd -StartupType "Automatic"
+```
 
 ![Posem aquesta comanda per què cada vegada que iniciem la màquina s’activi el servei.](img/Imatge36.png)
 
 Posem; ipconfig, per veure la IP de l’adaptador de només amfitrió i després amb aquella IP ens puguem connectar des de l'Ubuntu.
 
+```
+ipconfig
+```
+
 ![Posem; ipconfig, per veure la IP de l’adaptador de només amfitrió i després amb aquella IP ens puguem connectar des de l'Ubuntu.](img/Imatge38.png)
 
 Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.
 
+```
+ping IP-local-de-Windows
+```
+
 ![Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.](img/Imatge388.png)
+
+```
+ssh usuari@IP-local-de-Windows
+```
 
 ![Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.](img/Imatge389.png)
 
 ![Ara, des de la màquina Ubuntu, fem un ping per comprovar que es poden veure les dues màquines i ens connectem a la màquina Windows amb la IP de la interfície de només amfitrió de la màquina Windows.](img/Imatge40.png)
 
+Seguidament la creació d’un túnel SSH (Proxy SOCKS), amb la següent comanda: 
 
+```
+ssh -D 2222 usuari@IP-del-servidor
+```
 
-![hola](img/Imatge41.png) 
+![Seguidament la creació d’un túnel SSH (Proxy SOCKS), amb la següent comanda: ](img/Imatge41.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge42.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge43.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge44.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge45.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge46.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge47.png) 
 
-![hola](img/Imatge41.png) 
+![hola](img/Imatge48.png) 
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
