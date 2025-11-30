@@ -19,7 +19,7 @@ sudo nano /etc/netplan/50-cloud-init.yaml
 
 ![Entrem i el primer que fem és editar el netplan.](img/Imatge04.png)
 
-Apliquem canvis
+Apliquem canvis.
 
 ```
 sudo netplan apply
