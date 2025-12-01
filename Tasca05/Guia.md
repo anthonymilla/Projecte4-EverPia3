@@ -234,19 +234,33 @@ ssh -D 9876 usuari@IP-del-servidor
 
 ![Seguidament la creació d’un túnel SSH (Proxy SOCKS), amb la següent comanda: ](img/Imatge41.png) 
 
-![hola](img/Imatge42.png) 
+Ara fem la configuració del Proxy a Windows, primerament anem a panell de control. 
 
-![hola](img/Imatge43.png) 
+![Ara fem la configuració del Proxy a Windows, primerament anem a panell de control. ](img/Imatge42.png) 
 
-![hola](img/Imatge44.png) 
+Després a Xarxa i Internet.
 
-![hola](img/Imatge45.png) 
+![Després a Xarxa i Internet.](img/Imatge43.png) 
 
-![hola](img/Imatge46.png) 
+Ara a Opcions d’Internet.
 
-![hola](img/Imatge47.png) 
+![Ara a Opcions d’Internet.](img/Imatge44.png) 
 
-![hola](img/Imatge48.png) 
+Anem a connexions i configuració de LAN. 
+
+![Anem a connexions i configuració de LAN. ](img/Imatge45.png) 
+
+Opcions avançades (Deixem marca l'opció de: Usar un servidor proxy para la LAN).
+
+![Opcions avançades (Deixem marca l'opció de: Usar un servidor proxy para la LAN).](img/Imatge46.png) 
+
+Posem en Socks IP local i port 9876.
+
+![Posem en Socks IP local i port 9876.](img/Imatge47.png) 
+
+I després instal·lem Wireshark i fem la validació del túnel amb Wireshark.
+
+![I després instal·lem Wireshark i fem la validació del túnel amb Wireshark.](img/Imatge48.png) 
 
 
 [Anar a l'enunciat](../Tasca01/README.md)  
