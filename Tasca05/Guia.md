@@ -229,7 +229,7 @@ ssh usuari@IP-local-de-Windows
 Seguidament la creació d’un túnel SSH (Proxy SOCKS), amb la següent comanda: 
 
 ```
-ssh -D 2222 usuari@IP-del-servidor
+ssh -D 9876 usuari@IP-del-servidor
 ```
 
 ![Seguidament la creació d’un túnel SSH (Proxy SOCKS), amb la següent comanda: ](img/Imatge41.png) 
