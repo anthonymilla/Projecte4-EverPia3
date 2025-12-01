@@ -3,6 +3,8 @@
 | Fase 1: Treball individual |
 |----------------------------------------|
 
+De forma individual, heu de donar resposta a les següents preguntes basant-se en el cas pràctic:
+
 **1. Què copiar?** Quan copiem el que hem de fer es prioritzar, el servidor és la prioritat perquè concentra les dades més crítiques, aleshores:
 - **Servidor**:  
   - Base de dades  
@@ -69,7 +71,6 @@ La còpia més recent s’ha de guardar al **NAS intern**, perquè és el més r
 
 | Fase 3: Treball en grup - Document Final |
 |----------------------------------------|
-# Document Final (Fase 3)
 
 El grup ha de generar un document amb els següents punts resolts:
 
