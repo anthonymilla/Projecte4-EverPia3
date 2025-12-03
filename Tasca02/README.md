@@ -44,4 +44,5 @@ Ara passaràs a automatitzar el procés de les còpies utilitzant uns scripts b�
 - **Programant tasques amb cron:**  
   https://geekytheory.com/programar-tareas-en-linux-usando-crontab
 
+[Anar a la solució](../Tasca02/Guia.md)     
 [Anar a la pàgina inicial](../README.md)
