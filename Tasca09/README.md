@@ -38,5 +38,5 @@ https://somebooks.es/nfs-parte-2-instalacion-en-un-cliente-ubuntu-20-04-lts/
 - **Network File System (NFS). (s. f.).** Ubuntu Server.  
 https://documentation.ubuntu.com/server/how-to/networking/install-nfs/
 
-[Anar a la solució](../Tasca09/Guia.md)     
+[Anar a la guia](../Tasca09/Guia.md)     
 [Anar a la pàgina inicial](../README.md)
