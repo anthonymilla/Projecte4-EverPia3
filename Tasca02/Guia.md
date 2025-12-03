@@ -52,9 +52,9 @@ Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem 
 
 ![Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada hora es repetiran les còpies de seguretat que aniran al disc secundari. Després continuem i ja per finalitzar en Options, a baix a la dreta, cliquem Submit (Ens hem de registrar, perquè ens deixi fer el Submit per això, sense registre no deixa, i amb registre sí, cliquem a dalt a la dreta en Click to register). ](Img/Imatge16.png)
 
-Creat, ara afegim arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).
+Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).
 
-![Creat, ara afegim arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge17.png)
+![Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge17.png)
 
 
 
