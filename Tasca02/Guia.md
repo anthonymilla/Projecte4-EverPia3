@@ -68,3 +68,6 @@ Creat, ara afegim arxius a les carpetes de l’usuari, especialment a Documents,
 
 ![Hola](Img/Imatge18.png)
 
+
+[Anar a l'enunciat](../Tasca02/README.md)  
+[Anar a la pàgina inicial](../README.md)
