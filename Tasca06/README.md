@@ -19,4 +19,5 @@ Aquesta documentació ha de ser extremadament clara. Penseu que un client nervi�
 
 Moodle 0227 Serveis de Xarxa. UD4.AA3 Escriptoris Remots
 
+[Anar a la Guia](../Tasca06/Guia.md)     
 [Anar a la pàgina inicial](../README.md)
