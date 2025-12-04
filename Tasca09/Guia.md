@@ -90,5 +90,15 @@ sudo mkdir /nfs/dev_projectes
 ![Hola](img/Imatge18.png)
 
 
+
+
+
+| Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
+|----------------------------------------|
+
+
+
+
+
 [Anar a l'enunciat](../Tasca09/README.md)  
 [Anar a la pàgina inicial](../README.md)
