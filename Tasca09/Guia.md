@@ -182,7 +182,7 @@ sudo nano /etc/exports
 
 Afegim la següent linea.
 
-![Configuració NFS.](img/Imatge26.png)
+![Afegim la següent linea.](img/Imatge26.png)
 
 
 
