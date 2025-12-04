@@ -41,21 +41,47 @@ Després fem les actualitzacions.
 | Fase 2: Preparació del servidor |
 |----------------------------------------|
 
+Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.
+Creació de Grups: Crear dos grups per al client: devs i admins.
 
+![Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.
+Creació de Grups: Crear dos grups per al client: devs i admins.](img/Imatge10.png)
 
-![Hola](img/Imatge10.png)
+Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
+Crear un usuari admin01 (membre del grup admins).
 
-![Hola](img/Imatge11.png)
+![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
+Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
 
-![Hola](img/Imatge12.png)
+![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
+Crear un usuari admin01 (membre del grup admins).](img/Imatge12.png)
 
-![Hola](img/Imatge13.png)
+![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
+Crear un usuari admin01 (membre del grup admins).](img/Imatge13.png)
+
+Crear el directori per als projectes de desenvolupament: 
+/srv/nfs/dev_projects
+```
+cd /srv
+```
+
+```
+sudo mkdir /nfs
+```
+
+```
+sudo mkdir /nfs/dev_projectes
+```
 
 ![Hola](img/Imatge14.png)
 
 ![Hola](img/Imatge15.png)
 
+![Hola](img/Imatge16.png)
 
+![Hola](img/Imatge17.png)
+
+![Hola](img/Imatge18.png)
 
 
 [Anar a l'enunciat](../Tasca09/README.md)  
