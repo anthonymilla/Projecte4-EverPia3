@@ -38,6 +38,9 @@ Després fem les actualitzacions.
 
 ![Després fem les actualitzacions.](img/Imatge09.png)
 
+| Fase 2: Preparació del servidor |
+|----------------------------------------|
+
 
 
 ![Hola](img/Imatge10.png)
