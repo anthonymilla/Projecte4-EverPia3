@@ -110,6 +110,9 @@ En tots dos casos, l'usuari propietari serà root.
 
 Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.
 
+```
+sudo apt install nfs-kernel-server -y
+```
 
 ![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge18.png)
 
