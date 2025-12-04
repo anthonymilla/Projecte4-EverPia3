@@ -77,15 +77,23 @@ Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, d
 
 ![Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge23.png)
 
+Afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).
 
+![Afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge24.png)
 
-![Hola](Img/Imatge24.png)
+Ara que ja hi han còpies fetes, esborrem el contingut de Documents i procediu a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.
 
 ![Hola](Img/Imatge25.png)
 
 ![Hola](Img/Imatge26.png)
 
 ![Hola](Img/Imatge27.png)
+
+![Hola](Img/Imatge28.png)
+
+![Hola](Img/Imatge29.png)
+
+![Hola](Img/Imatge30.png)
 
 
 [Anar a l'enunciat](../Tasca02/README.md)  
