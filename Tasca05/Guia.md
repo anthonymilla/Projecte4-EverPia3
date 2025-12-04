@@ -27,7 +27,7 @@ sudo netplan apply
 
 ![Entrem i el primer que fem és editar el netplan.](img/Imatge05.png)
 
-**Instal·lem el ssh amb la següent comanda:**
+Instal·lem el ssh amb la següent comanda:
 
 ```
 sudo apt install ssh
