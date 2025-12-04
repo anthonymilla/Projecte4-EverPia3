@@ -133,24 +133,62 @@ Com a pas final, instal·lem els paquets necessaris per al servei NFS al servido
 sudo apt install nfs-kernel-server -y
 ```
 
+```
+systemctl status nfs-server
+```
+
 ![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge18.png)
 
 ![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge19.png)
 
+![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge20.png)
 
+Creació recurs compartit.
 
-![Hola](img/Imatge20.png)
+```
+cd /srv
+```
 
-![Hola](img/Imatge21.png)
+```
+sudo mkdir compartida
+```
 
-![Hola](img/Imatge22.png)
+```
+sudo chown nobody:nogroup /srv/compartida
+```
 
-![Hola](img/Imatge23.png)
+```
+sudo chmod -R 777 /srv/compartida
+```
 
-![Hola](img/Imatge24.png)
+![Creació recurs compartit.](img/Imatge21.png)
+
+![Creació recurs compartit.](img/Imatge22.png)
+
+![Creació recurs compartit.](img/Imatge23.png)
+
+![Creació recurs compartit.](img/Imatge24.png)
 
 | Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
 |----------------------------------------|
+
+Configuració NFS.
+
+```
+sudo nano /etc/exports
+````
+
+![Configuració NFS.](img/Imatge25.png)
+
+Afegim la següent linea.
+
+![Configuració NFS.](img/Imatge26.png)
+
+
+
+![Hola](img/Imatge27.png)
+
+![Hola](img/Imatge28.png)
 
 
 
