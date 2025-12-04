@@ -103,7 +103,9 @@ sudo mkdir /srv/nfs/admin_tools
 
 ![Hola](img/Imatge18.png)
 
+![Hola](img/Imatge19.png)
 
+![Hola](img/Imatge20.png)
 
 
 
