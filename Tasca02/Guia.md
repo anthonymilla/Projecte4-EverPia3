@@ -55,17 +55,35 @@ Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, d
 
 ![Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge17.png)
 
+Ara creem l'altre còpia de seguretat, pel Drive. Posem nom a la còpia de seguretat, descripció, contrasenya.
 
+![Ara creem l'altre còpia de seguretat, pel Drive. Posem nom a la còpia de seguretat, descripció, contrasenya.](Img/Imatge18.png)
 
-![Hola](Img/Imatge18.png)
+Cliquem l’opció de Drive.
 
-![Hola](Img/Imatge18.png)
+![Cliquem l’opció de Drive.](Img/Imatge19.png)
 
-![Hola](Img/Imatge18.png)
+Aquí escollim la carpeta que volem copiar. Home.
 
-![Hola](Img/Imatge18.png)
+![Aquí escollim la carpeta que volem copiar. Home.](Img/Imatge20.png)
 
-![Hola](Img/Imatge18.png)
+![Hola](Img/Imatge21.png)
+
+Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada dia a las 18:00 es repetiran les còpies de seguretat que aniran al Drive. Després continuem i ja per finalitzar en Options, deixem l'opció "Keep all backups” (Conserva totes les còpies), així cada còpia de seguretat es guardarà sense eliminar-ne cap i a baix a la dreta, cliquem Submit.
+
+![Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada dia a las 18:00 es repetiran les còpies de seguretat que aniran al Drive. Després continuem i ja per finalitzar en Options, deixem l'opció "Keep all backups” (Conserva totes les còpies), així cada còpia de seguretat es guardarà sense eliminar-ne cap i a baix a la dreta, cliquem Submit.](Img/Imatge22.png)
+
+![Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada dia a las 18:00 es repetiran les còpies de seguretat que aniran al Drive. Després continuem i ja per finalitzar en Options, deixem l'opció "Keep all backups” (Conserva totes les còpies), així cada còpia de seguretat es guardarà sense eliminar-ne cap i a baix a la dreta, cliquem Submit.](Img/Imatge23.png)
+
+Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).
+
+![Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge24.png)
+
+![Hola](Img/Imatge25.png)
+
+![Hola](Img/Imatge26.png)
+
+![Hola](Img/Imatge27.png)
 
 
 [Anar a l'enunciat](../Tasca02/README.md)  
