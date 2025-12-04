@@ -42,7 +42,7 @@ Després fem les actualitzacions.
 |----------------------------------------|
 
 Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.                        
-Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups.
+Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups. I fem el mateix procediment que al ubuntu.
 
 ![Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.
 Creació de Grups: Crear dos grups per al client: devs i admins.](img/ImatgeGroups.png)
