@@ -46,7 +46,8 @@ Després aquí escollim la carpeta volem copiar. Home, on tenim documents, downl
 
 ![Després aquí escollim la carpeta volem copiar. Home, on tenim documents, downloads…etc](Img/Imatge14.png)
 
-Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada hora es repetiran les còpies de seguretat que aniran al disc secundari. Després continuem i ja per finalitzar en Options, a baix a la dreta, cliquem Submit (Ens hem de registrar, perquè ens deixi fer el Submit per això, sense registre no deixa, i amb registre sí, cliquem a dalt a la dreta en Click to register). 
+Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada hora es repetiran les còpies de seguretat que aniran al disc secundari. Després continuem i ja per finalitzar en Options, deixem l'opció "Keep all backups” (Conserva totes les còpies), així cada còpia de seguretat es guardarà sense eliminar-ne cap i a baix a la dreta, cliquem Submit (Ens hem de registrar, perquè ens deixi fer el Submit per això, sense registre no deixa, i amb registre sí, cliquem a dalt a la dreta en Click to register). 
+
 
 ![Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada hora es repetiran les còpies de seguretat que aniran al disc secundari. Després continuem i ja per finalitzar en Options, a baix a la dreta, cliquem Submit (Ens hem de registrar, perquè ens deixi fer el Submit per això, sense registre no deixa, i amb registre sí, cliquem a dalt a la dreta en Click to register). ](Img/Imatge15.png)
 
