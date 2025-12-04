@@ -95,19 +95,37 @@ sudo mkdir /srv/nfs/admin_tools
 ![Crear el directori per a les eines d'administració: 
 /srv/nfs/admin_tools](img/Imatge15.png)
 
+Permisos del Servidor:
+
+Es vol que els developers tinguin control total sobre els seus projectes.
+
+Es vol que els administradors tinguin control sobre les seves eines.
+
+En tots dos casos, l'usuari propietari serà root.
 
 
-![Hola](img/Imatge16.png)
+![Permisos del Servidor: Es vol que els developers tinguin control total sobre els seus projectes. Es vol que els administradors tinguin control sobre les seves eines. En tots dos casos, l'usuari propietari serà root.](img/Imatge16.png)
 
-![Hola](img/Imatge17.png)
+![Permisos del Servidor: Es vol que els developers tinguin control total sobre els seus projectes. Es vol que els administradors tinguin control sobre les seves eines. En tots dos casos, l'usuari propietari serà root.](img/Imatge17.png)
 
-![Hola](img/Imatge18.png)
+Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.
 
-![Hola](img/Imatge19.png)
+
+![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge18.png)
+
+![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge19.png)
+
+
 
 ![Hola](img/Imatge20.png)
 
+![Hola](img/Imatge21.png)
 
+![Hola](img/Imatge22.png)
+
+![Hola](img/Imatge23.png)
+
+![Hola](img/Imatge24.png)
 
 | Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
 |----------------------------------------|
