@@ -40,8 +40,6 @@ Ara escollim el disc secundari.
 
 ![Ara escollim el disc secundari.](Img/Imatge12.png)
 
-![Ara escollim el disc secundari.](Img/Imatge13.png)
-
 Després aquí escollim la carpeta volem copiar. Home, on tenim documents, downloads…etc
 
 ![Després aquí escollim la carpeta volem copiar. Home, on tenim documents, downloads…etc](Img/Imatge14.png)
