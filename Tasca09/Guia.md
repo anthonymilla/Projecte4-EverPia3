@@ -18,6 +18,9 @@ Quan els instalem, posem espanyol (Espanya) d’idioma i amb l'idioma per defect
 ![Configurem els dos equips amb dues interfícies de xarxa: una NAT per a l'accés a Internet i una adaptador de xarxa només-amb-amfitrió per a la comunicació entre ells i potencialment, treballar via terminal SSH amb el servidor. 
 Quan els instalem, posem espanyol (Espanya) d’idioma i amb l'idioma per defecte en espanyol. En Ubuntu Server, seleccionarem la instal·lació del servei SSH durant el procés d'instal·lació per facilitar la gestió remota.](img/Imatge04.png)
 
+![Configurem els dos equips amb dues interfícies de xarxa: una NAT per a l'accés a Internet i una adaptador de xarxa només-amb-amfitrió per a la comunicació entre ells i potencialment, treballar via terminal SSH amb el servidor. 
+Quan els instalem, posem espanyol (Espanya) d’idioma i amb l'idioma per defecte en espanyol. En Ubuntu Server, seleccionarem la instal·lació del servei SSH durant el procés d'instal·lació per facilitar la gestió remota.](img/Imatge05.png)
+
 Instal·lem el ssh per si de cas a les dues màquines, després fem ping per veure que ambdues màquines tinguin accés a Internet.
 
 Per instalar ssh:
@@ -25,20 +28,29 @@ Per instalar ssh:
 sudo apt install ssh
 ```
 
-![Instal·lem el ssh per si de cas a les dues màquines, després fem ping per veure que ambdues màquines tinguin accés a Internet.](img/Imatge05.png)
-
 ![Instal·lem el ssh per si de cas a les dues màquines, després fem ping per veure que ambdues màquines tinguin accés a Internet.](img/Imatge06.png)
 
-![Hola](img/Imatge07.png)
+![Instal·lem el ssh per si de cas a les dues màquines, després fem ping per veure que ambdues màquines tinguin accés a Internet.](img/Imatge07.png)
 
-![Hola](img/Imatge08.png)
+Després fem les actualitzacions.
 
-![Hola](img/Imatge09.png)
+![Després fem les actualitzacions.](img/Imatge08.png)
+
+![Després fem les actualitzacions.](img/Imatge09.png)
+
+
 
 ![Hola](img/Imatge10.png)
 
 ![Hola](img/Imatge11.png)
 
+![Hola](img/Imatge12.png)
+
+![Hola](img/Imatge13.png)
+
+![Hola](img/Imatge14.png)
+
+![Hola](img/Imatge15.png)
 
 
 
