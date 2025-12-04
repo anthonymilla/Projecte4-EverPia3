@@ -79,9 +79,23 @@ sudo mkdir /nfs
 sudo mkdir /nfs/dev_projectes
 ```
 
-![Hola](img/Imatge14.png)
+![Crear el directori per als projectes de desenvolupament: 
+/srv/nfs/dev_projects](img/Imatge14.png)
 
-![Hola](img/Imatge15.png)
+Crear el directori per a les eines d'administració: 
+/srv/nfs/admin_tools
+```
+sudo su
+```
+
+```
+sudo mkdir /srv/nfs/admin_tools
+```
+
+![Crear el directori per a les eines d'administració: 
+/srv/nfs/admin_tools](img/Imatge15.png)
+
+
 
 ![Hola](img/Imatge16.png)
 
