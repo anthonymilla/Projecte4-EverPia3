@@ -95,6 +95,39 @@ Ara que ja hi han còpies fetes, esborrem el contingut de Documents i procediu a
 
 ![Hola](Img/Imatge30.png)
 
+![Hola](Img/Imatge31.png)
+
+![Hola](Img/Imatge32.png)
+
+![Hola](Img/Imatge33.png)
+
+![Hola](Img/Imatge34.png)
+
+![Hola](Img/Imatge35.png)
+
+![Hola](Img/Imatge36.png)
+
+![Hola](Img/Imatge37.png)
+
+![Hola](Img/Imatge38.png)
+
+![Hola](Img/Imatge39.png)
+
+![Hola](Img/Imatge40.png)
+
+![Hola](Img/Imatge41.png)
+
+![Hola](Img/Imatge42.png)
+
+![Hola](Img/Imatge43.png)
+
+![Hola](Img/Imatge44.png)
+
+![Hola](Img/Imatge45.png)
+
+
+
+
 
 [Anar a l'enunciat](../Tasca02/README.md)  
 [Anar a la pàgina inicial](../README.md)
