@@ -190,6 +190,30 @@ Afegim la següent linea.
 
 ![Hola](img/Imatge28.png)
 
+![Hola](img/Imatge29.png)
+
+![Hola](img/Imatge30.png)
+
+![Hola](img/Imatge31.png)
+
+![Hola](img/Imatge32.png)
+
+![Hola](img/Imatge33.png)
+
+![Hola](img/Imatge34.png)
+
+![Hola](img/Imatge35.png)
+
+![Hola](img/Imatge36.png)
+
+![Hola](img/Imatge37.png)
+
+![Hola](img/Imatge38.png)
+
+![Hola](img/Imatge39.png)
+
+![Hola](img/Imatge40.png)
+
 
 
 
