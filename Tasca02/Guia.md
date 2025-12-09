@@ -77,6 +77,12 @@ Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, d
 
 ![Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge23.png)
 
+Fem AuthID a la còpia del Drive perquè funcioni. 
+
+![Fem AuthID a la còpia del Drive perquè funcioni. ](Img/Imatge222.png)
+
+![Fem AuthID a la còpia del Drive perquè funcioni. ](Img/Imatge223.png)
+
 Afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).
 
 ![Afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge24.png)
