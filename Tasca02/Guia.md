@@ -141,6 +141,8 @@ I la restauració estaria completada.
 
 ![I la restauració estaria completada.](Img/Imatge377.png)
 
+![I la restauració estaria completada. Pot tenir horari diferent perquè la màquina canvia la hora tot el temps, sinó seria per el moment de creació de la carpeta i els arxius.](Img/Imatge378.png)
+
 Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxius Duplicati, són les còpies de seguretat encriptades que Duplicati ha creat. Entrem al nostre Google Drive per exemple i ho veiem.
 
 ![Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxius Duplicati, són les còpies de seguretat encriptades que Duplicati ha creat. Entrem al nostre Google Drive per exemple i ho veiem.](Img/Imatge38.png)
