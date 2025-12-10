@@ -91,6 +91,8 @@ Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i
 
 ![Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge25.png)
 
+![Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge255.png)
+
 Restauració des del disc secundari. Anem a Restore i escollim l'opció de Còpia de seguretat (disc secundari) i cliquem en Restore. 
 
 ![Restauració des del disc secundari. Anem a Restore i escollim l'opció de Còpia de seguretat (disc secundari) i cliquem en Restore. ](Img/Imatge26.png)
@@ -117,6 +119,8 @@ Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemad
 
 ![Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge32.png)
 
+![Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge322.png)
+
 Restauració des de la còpia que teniu emmagatzemada al cloud. Anem a Restore i escollim l'opció de Còpia de seguretat Drive i cliquem en Restore. 
 
 ![Restauració des de la còpia que teniu emmagatzemada al cloud. Anem a Restore i escollim l'opció de Còpia de seguretat Drive i cliquem en Restore. ](Img/Imatge33.png)
@@ -135,13 +139,15 @@ I la restauració estaria completada.
 
 ![I la restauració estaria completada.](Img/Imatge37.png)
 
+![I la restauració estaria completada.](Img/Imatge377.png)
+
 Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxius Duplicati, són les còpies de seguretat encriptades que Duplicati ha creat. Entrem al nostre Google Drive per exemple i ho veiem.
 
 ![Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxius Duplicati, són les còpies de seguretat encriptades que Duplicati ha creat. Entrem al nostre Google Drive per exemple i ho veiem.](Img/Imatge38.png)
 
+Disc secundari.
 
-
-![Hola](Img/Imatge39.png)
+![Disc secundari.](Img/Imatge39.png)
 
 ![Hola](Img/Imatge40.png)
 
