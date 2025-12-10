@@ -91,7 +91,7 @@ Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i
 
 ![Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge25.png)
 
-![Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge322.png)
+![Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge2555.png)
 
 Restauració des del disc secundari. Anem a Restore i escollim l'opció de Còpia de seguretat (disc secundari) i cliquem en Restore. 
 
@@ -119,7 +119,7 @@ Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemad
 
 ![Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge32.png)
 
-![Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge255.png)
+![Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge3222.png)
 
 Restauració des de la còpia que teniu emmagatzemada al cloud. Anem a Restore i escollim l'opció de Còpia de seguretat Drive i cliquem en Restore. 
 
