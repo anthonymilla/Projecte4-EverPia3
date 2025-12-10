@@ -34,6 +34,10 @@ sudo apt install ssh
 
 Després fem les actualitzacions.
 
+```
+sudo apt update && sudo apt upgrade
+```
+
 ![Després fem les actualitzacions.](img/Imatge08.png)
 
 ![Després fem les actualitzacions.](img/Imatge09.png)
@@ -145,21 +149,49 @@ systemctl status nfs-server
 
 Configuració NFS.
 
+```
+sudo nano /etc/exports
+```
+
 ![Configuració NFS.](img/Imatge21.png)
 
 Afegim la següent linea.
 
 ![Afegim la següent linea.](img/Imatge22.png)
 
+Fem restart.
+
+```
+sudo systemctl restart nfs-kernel-server
+```
+
+![Fem restart.](img/Imatge23.png)
+
+Després sudo exportfs -u
+
+```
+sudo exportfs -u
+```
+
+![Després sudo exportfs -u](img/Imatge24.png)
+
+Ip a.
+
+```
+ip a
+```
+
+![Ip a.](img/Imatge25.png)
+
+Fem sudo rpcinfo -p a l’IP (192.168.56.106).
+
+```
+sudo rpcinfo -p 192.168.56.106
+```
+
+![Fem sudo rpcinfo -p a l’IP (192.168.56.106).](img/Imatge26.png)
 
 
-![Hola](img/Imatge23.png)
-
-![Hola](img/Imatge24.png)
-
-![Hola](img/Imatge25.png)
-
-![Hola](img/Imatge26.png)
 
 ![Hola](img/Imatge27.png)
 
