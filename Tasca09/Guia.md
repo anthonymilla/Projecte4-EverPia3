@@ -143,20 +143,19 @@ systemctl status nfs-server
 
 ![Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.](img/Imatge20.png)
 
+Configuració NFS.
+
+![Configuració NFS.](img/Imatge21.png)
+
+Afegim la següent linea.
+
+![Afegim la següent linea.](img/Imatge22.png)
 
 
-![Hola](img/Imatge21.png)
-
-![Hola](img/Imatge22.png)
 
 ![Hola](img/Imatge23.png)
 
 ![Hola](img/Imatge24.png)
-
-| Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
-|----------------------------------------|
-
-
 
 ![Hola](img/Imatge25.png)
 
@@ -177,6 +176,9 @@ systemctl status nfs-server
 ![Hola](img/Imatge33.png)
 
 ![Hola](img/Imatge34.png)
+
+| Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
+|----------------------------------------|
 
 ![Hola](img/Imatge35.png)
 
