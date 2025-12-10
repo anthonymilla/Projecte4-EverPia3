@@ -191,11 +191,16 @@ sudo rpcinfo -p 192.168.56.106
 
 ![Fem sudo rpcinfo -p a l’IP (192.168.56.106).](img/Imatge26.png)
 
-
+Instal·lem nfs-common.
 
 ![Hola](img/Imatge27.png)
 
+I ens connectem desde el client (Zorin) a l’Ubuntu.
+
 ![Hola](img/Imatge28.png)
+
+| Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
+|----------------------------------------|
 
 ![Hola](img/Imatge29.png)
 
@@ -208,9 +213,6 @@ sudo rpcinfo -p 192.168.56.106
 ![Hola](img/Imatge33.png)
 
 ![Hola](img/Imatge34.png)
-
-| Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
-|----------------------------------------|
 
 ![Hola](img/Imatge35.png)
 
