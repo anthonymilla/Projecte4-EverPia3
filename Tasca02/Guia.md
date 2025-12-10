@@ -63,9 +63,9 @@ Cliquem l’opció de Drive.
 
 ![Cliquem l’opció de Drive.](Img/Imatge19.png)
 
-Aquí escollim la carpeta que volem copiar. Home.
+Escollim la carpeta corresponent que volem copiar.
 
-![Aquí escollim la carpeta que volem copiar. Home.](Img/Imatge20.png)
+![Escollim la carpeta corresponent que volem copiar.](Img/Imatge20.png)
 
 Ara aquí hem de posar quan farem les còpies de seguretat, en aquest cas posem que cada dia a las 18:00 es repetiran les còpies de seguretat que aniran al Drive. Després continuem i ja per finalitzar en Options, deixem l'opció "Keep all backups” (Conserva totes les còpies), així cada còpia de seguretat es guardarà sense eliminar-ne cap i a baix a la dreta, cliquem Submit.
 
@@ -77,45 +77,69 @@ Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, d
 
 ![Creat, afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge23.png)
 
-Fem AuthID a la còpia del Drive perquè funcioni. 
+Fem AuthID a la còpia del Drive perquè funcioni el backup. Per això, en donar-li Start, per exemple, no fa la còpia de seguretat, surt una notificació d'error, on hi ha un enllaç, el copiem, el posem al navegador de Chrome i copiem el text que ens surt, el que surt a la següent imatge, anem a la còpia de seguretat de Drive i en Destination, AuthID el copiem i ja estaria.
 
-![Fem AuthID a la còpia del Drive perquè funcioni. ](Img/Imatge222.png)
+![Fem AuthID a la còpia del Drive perquè funcioni el backup. Per això, en donar-li Start, per exemple, no fa la còpia de seguretat, surt una notificació d'error, on hi ha un enllaç, el copiem, el posem al navegador de Chrome i copiem el text que ens surt, el que surt a la següent imatge, anem a la còpia de seguretat de Drive i en Destination, AuthID el copiem i ja estaria.](Img/Imatge222.png)
 
-![Fem AuthID a la còpia del Drive perquè funcioni. ](Img/Imatge223.png)
+![Fem AuthID a la còpia del Drive perquè funcioni el backup. Per això, en donar-li Start, per exemple, no fa la còpia de seguretat, surt una notificació d'error, on hi ha un enllaç, el copiem, el posem al navegador de Chrome i copiem el text que ens surt, el que surt a la següent imatge, anem a la còpia de seguretat de Drive i en Destination, AuthID el copiem i ja estaria.](Img/Imatge223.png)
 
 Afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).
 
 ![Afegirem arxius a les carpetes de l’usuari, especialment a Documents, després farà les còpies corresponents en els horaris/moments corresponents al lloc (el funcionament).](Img/Imatge244.png)
 
-Ara que ja hi han còpies fetes, esborrem el contingut de Documents i procediu a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.
+Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.
 
-![Hola](Img/Imatge25.png)
+![Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i procedim a fer una restauració des del disc secundari i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge25.png)
 
-![Hola](Img/Imatge26.png)
+Restauració des del disc secundari. Anem a Restore i escollim l'opció de Còpia de seguretat (disc secundari) i cliquem en Restore. 
 
-![Hola](Img/Imatge27.png)
+![Restauració des del disc secundari. Anem a Restore i escollim l'opció de Còpia de seguretat (disc secundari) i cliquem en Restore. ](Img/Imatge26.png)
 
-![Hola](Img/Imatge28.png)
+Hem de seleccionar els fitxers, seleccionem i confirmem correctament, Continue. 
 
-![Hola](Img/Imatge29.png)
+![Hem de seleccionar els fitxers, seleccionem i confirmem correctament, Continue. ](Img/Imatge27.png)
 
-![Hola](Img/Imatge30.png)
+Original location i Overwrite (en aquest cas). I finalment Submit.
 
-![Hola](Img/Imatge31.png)
+![Original location i Overwrite (en aquest cas). I finalment Submit.](Img/Imatge28.png)
 
-![Hola](Img/Imatge32.png)
+![Original location i Overwrite (en aquest cas). I finalment Submit.](Img/Imatge29.png)
 
-![Hola](Img/Imatge33.png)
+I la restauració estaria completada.
 
-![Hola](Img/Imatge34.png)
+![I la restauració estaria completada.](Img/Imatge30.png)
 
-![Hola](Img/Imatge35.png)
+I el contingut ja està correctament restaurat.
 
-![Hola](Img/Imatge36.png)
+![I el contingut ja està correctament restaurat.](Img/Imatge31.png)
 
-![Hola](Img/Imatge37.png)
+Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.
 
-![Hola](Img/Imatge38.png)
+![Comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud. Fent el mateix procediment. Ara que ja hi han còpies fetes (Versions), esborrem el contingut de Documents i comprovem com podem fer una restauració des de la còpia que teniu emmagatzemada al cloud.](Img/Imatge32.png)
+
+Restauració des de la còpia que teniu emmagatzemada al cloud. Anem a Restore i escollim l'opció de Còpia de seguretat Drive i cliquem en Restore. 
+
+![Restauració des de la còpia que teniu emmagatzemada al cloud. Anem a Restore i escollim l'opció de Còpia de seguretat Drive i cliquem en Restore. ](Img/Imatge33.png)
+
+Hem de seleccionar els fitxers, seleccionem i confirmem correctament, Continue. 
+
+![Hem de seleccionar els fitxers, seleccionem i confirmem correctament, Continue. ](Img/Imatge34.png)
+
+Original location i Overwrite (en aquest cas). I finalment Submit.
+
+![Original location i Overwrite (en aquest cas). I finalment Submit.](Img/Imatge35.png)
+
+![Original location i Overwrite (en aquest cas). I finalment Submit.](Img/Imatge36.png)
+
+I la restauració estaria completada.
+
+![I la restauració estaria completada.](Img/Imatge37.png)
+
+Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxius Duplicati, són les còpies de seguretat encriptades que Duplicati ha creat. Entrem al nostre Google Drive per exemple i ho veiem.
+
+![Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxius Duplicati, són les còpies de seguretat encriptades que Duplicati ha creat. Entrem al nostre Google Drive per exemple i ho veiem.](Img/Imatge38.png)
+
+
 
 ![Hola](Img/Imatge39.png)
 
@@ -130,6 +154,26 @@ Ara que ja hi han còpies fetes, esborrem el contingut de Documents i procediu a
 ![Hola](Img/Imatge44.png)
 
 ![Hola](Img/Imatge45.png)
+
+![Hola](Img/Imatge46.png)
+
+![Hola](Img/Imatge47.png)
+
+![Hola](Img/Imatge48.png)
+
+![Hola](Img/Imatge49.png)
+
+![Hola](Img/Imatge50.png)
+
+![Hola](Img/Imatge51.png)
+
+![Hola](Img/Imatge52.png)
+
+![Hola](Img/Imatge53.png)
+
+![Hola](Img/Imatge54.png)
+
+![Hola](Img/Imatge55.png)
 
 
 
