@@ -66,11 +66,6 @@ Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
 ![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
 Crear un usuari admin01 (membre del grup admins).](img/Imatge12.png)
 
-Cridem als grups no usuaris*.
-
-![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
-Crear un usuari admin01 (membre del grup admins).](img/Imatge13.png)
-
 Crear el directori per als projectes de desenvolupament: 
 /srv/nfs/dev_projects
 ```
