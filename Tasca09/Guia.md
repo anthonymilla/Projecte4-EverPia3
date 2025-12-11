@@ -217,17 +217,30 @@ Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root de
 sudo mkdir /mnt/admin_tools
 ```
 
+```
+sudo mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
+```
 ![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge30.png)
 
+![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge31.png)
+
+Ara és veu que està creada la carpeta mnt.
+
+![Ara és veu que està creada la carpeta mnt.](img/Imatge32.png)
+
+No podem accedir al directori perquè el sistema ens rebutja l’entrada per manca d’autoritzacions. 
+
+![No podem accedir al directori perquè el sistema ens rebutja l’entrada per manca d’autoritzacions. ](img/Imatge33.png)
+
+El motiu és que l’opció root_squash no està configurada, i això fa que el superusuari de la màquina client no sigui reconegut com el mateix administrador del servidor Ubuntu.
+
+![El motiu és que l’opció root_squash no està configurada, i això fa que el superusuari de la màquina client no sigui reconegut com el mateix administrador del servidor Ubuntu.](img/Imatge34.png)
 
 
-![Hola](img/Imatge31.png)
 
-![Hola](img/Imatge32.png)
-
-![Hola](img/Imatge33.png)
-
-![Hola](img/Imatge34.png)
+```
+sudo login admin01
+```
 
 ![Hola](img/Imatge35.png)
 
