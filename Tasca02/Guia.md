@@ -159,13 +159,15 @@ Disc secundari.
 | Part 2: Còpia seguretat servidor Linux |
 |----------------------------------------|
 
+Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.
 
+![Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.](Img/Imatge40.png)
 
-![Hola](Img/Imatge40.png)
+![Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.](Img/Imatge41.png)
 
-![Hola](Img/Imatge41.png)
+![Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.](Img/Imatge42.png)
 
-![Hola](Img/Imatge42.png)
+Inicialitzo i formatego en format xfs. Com simula una unitat externa, es muntarà manualment a /media/backup (primer cal crear la carpeta).
 
 ![Hola](Img/Imatge43.png)
 
@@ -192,6 +194,26 @@ Disc secundari.
 ![Hola](Img/Imatge54.png)
 
 ![Hola](Img/Imatge55.png)
+
+![Hola](Img/Imatge56.png)
+
+![Hola](Img/Imatge57.png)
+
+![Hola](Img/Imatge58.png)
+
+![Hola](Img/Imatge59.png)
+
+![Hola](Img/Imatge60.png)
+
+![Hola](Img/Imatge61.png)
+
+![Hola](Img/Imatge62.png)
+
+![Hola](Img/Imatge63.png)
+
+![Hola](Img/Imatge64.png)
+
+![Hola](Img/Imatge65.png)
 
 
 
