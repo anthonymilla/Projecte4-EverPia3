@@ -193,20 +193,36 @@ sudo rpcinfo -p 192.168.56.106
 
 Instal·lem nfs-common.
 
-![Hola](img/Imatge27.png)
+```
+sudo apt install nfs-common -y
+```
+
+![Instal·lem nfs-common.](img/Imatge27.png)
 
 I ens connectem desde el client (Zorin) a l’Ubuntu.
 
-![Hola](img/Imatge28.png)
+```
+sudo showmount -e 192.168.56.186
+```
+
+![I ens connectem desde el client (Zorin) a l’Ubuntu.](img/Imatge28.png)
 
 | Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
 |----------------------------------------|
 
 El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2).
 
-![El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució.                                                                     Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2).](img/Imatge29.png)
+![El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2).](img/Imatge29.png)
 
-![Hola](img/Imatge30.png)
+Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.
+
+```
+sudo mkdir /mnt/admin_tools
+```
+
+![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge30.png)
+
+
 
 ![Hola](img/Imatge31.png)
 
@@ -227,6 +243,26 @@ El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l
 ![Hola](img/Imatge39.png)
 
 ![Hola](img/Imatge40.png)
+
+![Hola](img/Imatge41.png)
+
+![Hola](img/Imatge42.png)
+
+![Hola](img/Imatge43.png)
+
+![Hola](img/Imatge44.png)
+
+![Hola](img/Imatge45.png)
+
+![Hola](img/Imatge46.png)
+
+![Hola](img/Imatge47.png)
+
+![Hola](img/Imatge48.png)
+
+![Hola](img/Imatge49.png)
+
+![Hola](img/Imatge50.png)
 
 
 
