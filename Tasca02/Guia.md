@@ -1,5 +1,8 @@
 # DPR: CÒPIES DE SEGURETAT. CAS PRÀCTIC
 
+| Part 1: Còpia seguretat dels equips clients Windows |
+|----------------------------------------|
+
 Creem una màquina virtual Windows 11 amb dos discos, instal·lem el sistema operatiu i un de secundari de 10 GB que servirà per emmagatzemar les còpies de seguretat. Paràmetres, emmagatzematge i creem.
 
 ![Creem una màquina virtual Windows 11 amb dos discos, instal·lem el sistema operatiu i un de secundari de 10 GB que servirà per emmagatzemar les còpies de seguretat. Paràmetres, emmagatzematge i creem.](Img/Imatge01.png)
@@ -152,6 +155,11 @@ Si ens fixem, tant al disc secundari com al nostre Google Drive surten els arxiu
 Disc secundari.
 
 ![Disc secundari.](Img/Imatge39.png)
+
+| Part 2: Còpia seguretat servidor Linux |
+|----------------------------------------|
+
+
 
 ![Hola](Img/Imatge40.png)
 
