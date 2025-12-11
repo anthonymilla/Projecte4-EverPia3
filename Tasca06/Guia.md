@@ -40,8 +40,6 @@
 
 ![hola](img/Imatge19.png)
 
-![hola](img/Imatge20.png)
-
 
 [Anar a l'enunciat](../Tasca06/README.md)  
 [Anar a la pàgina inicial](../README.md)
