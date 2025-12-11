@@ -60,8 +60,7 @@ Posem l’username i el password per fer la connexió al Windows.
 
 ![Posem l’username i el password per fer la connexió al Windows.](img/Imatge14.png)
 
-| Ja estaria fet la connexió Zorin Windows. |
-|----------------------------------------|
+Ja estaria fet la connexió Zorin Windows.
 
 ![Ja estaria fet la connexió Zorin Windows.](img/Imatge15.png)
 
@@ -77,8 +76,7 @@ Diem que si.
 
 ![Diem que si.](img/Imatge18.png)
 
-| Ja estaria fet la connexió Windows Zorin. |
-|----------------------------------------|
+Ja estaria fet la connexió Windows Zorin. 
 
 ![Ja estaria fet la connexió Windows Zorin.](img/Imatge19.png)
 
