@@ -261,18 +261,18 @@ ls
 ls -l /mnt/admin_tools
 ```
 
-![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge35.png)
-
 ![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge36.png)
 
 ![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge37.png)
+
+![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge38.png)
 
 | Prova 2 (La Solució) |
 |----------------------------------------|
 
 
 
-![Hola](img/Imatge38.png)
+
 
 ![Hola](img/Imatge39.png)
 
@@ -297,6 +297,16 @@ ls -l /mnt/admin_tools
 ![Hola](img/Imatge49.png)
 
 ![Hola](img/Imatge50.png)
+
+![Hola](img/Imatge51.png)
+
+![Hola](img/Imatge52.png)
+
+![Hola](img/Imatge53.png)
+
+![Hola](img/Imatge54.png)
+
+![Hola](img/Imatge55.png)
 
 
 
