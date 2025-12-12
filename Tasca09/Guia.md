@@ -207,6 +207,9 @@ sudo showmount -e 192.168.56.186
 | Fase 3: L'Exportació d'Administració (El Dilema del root_squash) |
 |----------------------------------------|
 
+| Prova 1 (L'error comú) |
+|----------------------------------------|
+
 El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2).
 
 ![El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2).](img/Imatge29.png)
@@ -224,29 +227,50 @@ sudo mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
 
 ![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge31.png)
 
-Ara és veu que està creada la carpeta mnt.
+Està creada la carpeta mnt.
 
-![Ara és veu que està creada la carpeta mnt.](img/Imatge32.png)
+![Està creada la carpeta mnt.](img/Imatge32.png)
 
 No podem accedir al directori perquè el sistema ens rebutja l’entrada per manca d’autoritzacions. 
 
 ![No podem accedir al directori perquè el sistema ens rebutja l’entrada per manca d’autoritzacions. ](img/Imatge33.png)
 
-El motiu és que l’opció root_squash no està configurada, i això fa que el superusuari de la màquina client no sigui reconegut com el mateix administrador del servidor Ubuntu.
+El motiu és que l’opció root_squash no està configurada, aleshores l’usuari de la màquina client no és reconegut com el mateix administrador del servidor Ubuntu.
 
-![El motiu és que l’opció root_squash no està configurada, i això fa que el superusuari de la màquina client no sigui reconegut com el mateix administrador del servidor Ubuntu.](img/Imatge34.png)
+![El motiu és que l’opció root_squash no està configurada, aleshores l’usuari de la màquina client no és reconegut com el mateix administrador del servidor Ubuntu.](img/Imatge34.png)
 
-
+Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.
 
 ```
 sudo login admin01
 ```
 
-![Hola](img/Imatge35.png)
+```
+cd /mnt/admin_tools/
+```
 
-![Hola](img/Imatge36.png)
+```
+touch file1
+```
 
-![Hola](img/Imatge37.png)
+```
+ls
+```
+
+```
+ls -l /mnt/admin_tools
+```
+
+![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge35.png)
+
+![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge36.png)
+
+![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge37.png)
+
+| Prova 2 (La Solució) |
+|----------------------------------------|
+
+
 
 ![Hola](img/Imatge38.png)
 
