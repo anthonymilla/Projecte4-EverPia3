@@ -46,9 +46,9 @@ sudo apt update && sudo apt upgrade
 |----------------------------------------|
 
 Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.                        
-Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups. I els creem (Ubuntu).
+Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups. I els creem corresponentment (Ubuntu).
 
-![Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups. I els creem (Ubuntu).](img/ImatgeGroups.png)
+![Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups. I els creem corresponentment (Ubuntu).](img/ImatgeGroups.png)
 
 ![Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no deixa crear grups. I els creem (Ubuntu).](img/ImatgeUsersSettings.png)
 
