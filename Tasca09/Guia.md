@@ -66,7 +66,7 @@ Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
 ![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
 Crear un usuari admin01 (membre del grup admins).](img/Imatge12.png)
 
-Crear el directori per als projectes de desenvolupament (he posat projectes*): 
+Crear el directori per als projectes de desenvolupament (he posat projectes, perdó*): 
 /srv/nfs/dev_projects
 ```
 cd /srv
