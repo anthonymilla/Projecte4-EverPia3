@@ -159,9 +159,9 @@ Disc secundari.
 | Part 2: Còpia seguretat servidor Linux |
 |----------------------------------------|
 
-Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.
+Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li hauré d'afegir un segon disc de 10 GB que simularà una unitat auxiliar.
 
-![Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.](Img/Imatge40.png)
+![Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li hauré d'afegir un segon disc de 10 GB que simularà una unitat auxiliar.](Img/Imatge40.png)
 
 ![Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs un segon disc de 10 GB que simularà una unitat auxiliar.](Img/Imatge41.png)
 
