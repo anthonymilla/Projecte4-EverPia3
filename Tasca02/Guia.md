@@ -179,7 +179,7 @@ ls -l /media/
 
 ![Inicialitzo i formatego en format xfs. Com simula una unitat externa, es muntarà manualment a /media/backup (primer cal crear la carpeta).](Img/Imatge43.png)
 
-Ara després instal·lem fdisk, hem de donar format al disk.
+Ara després instal·lem fdisk, per donar format al disk.
 
 ```
 sudo apt install fdisk
@@ -189,9 +189,9 @@ sudo apt install fdisk
 sudo fdisk -l
 ```
 
-![Ara després instal·lem fdisk, hem de donar format al disk.](Img/Imatge44.png)
+![Ara després instal·lem fdisk, per donar format al disk.](Img/Imatge44.png)
 
-![Ara després instal·lem fdisk, hem de donar format al disk.](Img/Imatge45.png)
+![Ara després instal·lem fdisk, per donar format al disk.](Img/Imatge45.png)
 
 Ara instal·lem lvm2.
 
@@ -201,13 +201,13 @@ sudo apt install lvm2
 
 ![Ara instal·lem lvm2.](Img/Imatge46.png)
 
-Creem el volum al disk amb la següent comanda.
+Creem volum al disk.
 
 ```
 sudo pvcreate /dev/sdb
 ```
 
-![Creem el volum al disk amb la següent comanda.](Img/Imatge47.png)
+![Creem volum al disk.](Img/Imatge47.png)
 
 Formategem. 
 
