@@ -308,6 +308,11 @@ ls -l /mnt/admin_tools
 
 ![Hola](img/Imatge55.png)
 
+![Hola](img/Imatge56.png)
+
+![Hola](img/Imatge57.png)
+
+![Hola](img/Imatge58.png)
 
 
 
