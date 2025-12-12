@@ -181,31 +181,63 @@ ls -l /media/
 
 Ara després instal·lem fdisk, hem de donar format al disk.
 
+```
+sudo apt install fdisk
+```
+
+```
+sudo fdisk -l
+```
+
 ![Ara després instal·lem fdisk, hem de donar format al disk.](Img/Imatge44.png)
 
 ![Ara després instal·lem fdisk, hem de donar format al disk.](Img/Imatge45.png)
 
 Ara instal·lem lvm2.
 
+```
+sudo apt install lvm2
+```
+
 ![Ara instal·lem lvm2.](Img/Imatge46.png)
 
 Creem el volum al disk amb la següent comanda.
+
+```
+sudo pvcreate /dev/sdb
+```
 
 ![Creem el volum al disk amb la següent comanda.](Img/Imatge47.png)
 
 Formategem. 
 
+```
+sudo mkfs.xfs -f /dev/sdb
+```
+
 ![Formategem. ](Img/Imatge48.png)
 
 Després muntem el disc a la carpeta /media/backup.
+
+```
+sudo mount /dev/sdb /media/backup
+```
 
 ![Després muntem el disc a la carpeta /media/backup.](Img/Imatge49.png)
 
 Instal·lem Duplicity. 
 
+```
+sudo apt install duplicity -y
+```
+
 ![Instal·lem Duplicity. ](Img/Imatge50.png)
 
 ![Instal·lem Duplicity. ](Img/Imatge51.png)
+
+
+
+
 
 ![Hola](Img/Imatge52.png)
 
