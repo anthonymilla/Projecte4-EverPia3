@@ -227,7 +227,7 @@ sudo mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
 
 ![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge31.png)
 
-Està creada la carpeta mnt.
+Mnt.
 
 ![Està creada la carpeta mnt.](img/Imatge32.png)
 
