@@ -169,23 +169,43 @@ Faig servir una màquina virtual amb un Ubuntu Server instal·lat i li afegiràs
 
 Inicialitzo i formatego en format xfs. Com simula una unitat externa, es muntarà manualment a /media/backup (primer cal crear la carpeta).
 
-![Hola](Img/Imatge43.png)
+```
+sudo mkdir /media/backup
+```
 
-![Hola](Img/Imatge44.png)
+```
+ls -l /media/
+```
 
-![Hola](Img/Imatge45.png)
+![Inicialitzo i formatego en format xfs. Com simula una unitat externa, es muntarà manualment a /media/backup (primer cal crear la carpeta).](Img/Imatge43.png)
 
-![Hola](Img/Imatge46.png)
+Ara després instal·lem fdisk, hem de donar format al disk.
 
-![Hola](Img/Imatge47.png)
+![Ara després instal·lem fdisk, hem de donar format al disk.](Img/Imatge44.png)
 
-![Hola](Img/Imatge48.png)
+![Ara després instal·lem fdisk, hem de donar format al disk.](Img/Imatge45.png)
 
-![Hola](Img/Imatge49.png)
+Ara instal·lem lvm2.
 
-![Hola](Img/Imatge50.png)
+![Ara instal·lem lvm2.](Img/Imatge46.png)
 
-![Hola](Img/Imatge51.png)
+Creem el volum al disk amb la següent comanda.
+
+![Creem el volum al disk amb la següent comanda.](Img/Imatge47.png)
+
+Formategem. 
+
+![Formategem. ](Img/Imatge48.png)
+
+Després muntem el disc a la carpeta /media/backup.
+
+![Després muntem el disc a la carpeta /media/backup.](Img/Imatge49.png)
+
+Instal·lem Duplicity. 
+
+![Instal·lem Duplicity. ](Img/Imatge50.png)
+
+![Instal·lem Duplicity. ](Img/Imatge51.png)
 
 ![Hola](Img/Imatge52.png)
 
