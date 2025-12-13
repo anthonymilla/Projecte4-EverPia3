@@ -133,10 +133,6 @@ Es vol que els administradors tinguin control sobre les seves eines.
 En tots dos casos, l'usuari propietari serà root.
 
 ```
-cd /nfs
-```
-
-```
 sudo chown root:devs dev_projectes
 ```
 
@@ -150,6 +146,10 @@ sudo chmod 770 dev_projectes
 
 ```
 sudo chmod 770 admin_tools
+```
+
+```
+ls -l /srv/nfs/
 ```
 
 ![Permisos del Servidor: Es vol que els developers tinguin control total sobre els seus projectes. Es vol que els administradors tinguin control sobre les seves eines. En tots dos casos, l'usuari propietari serà root.](img/Imatge16.png)
