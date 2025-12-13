@@ -133,19 +133,19 @@ Es vol que els administradors tinguin control sobre les seves eines.
 En tots dos casos, l'usuari propietari serà root.
 
 ```
-sudo chown root:devs dev_projectes
+sudo chown root:devs /srv/nfs/dev_projectes
 ```
 
 ```
-sudo chown root:admins admin_tools
+sudo chown root:admins /srv/nfs/admin_tools
 ```
 
 ```
-sudo chmod 770 dev_projectes
+sudo chmod 2775 /srv/nfs/dev_projectes
 ```
 
 ```
-sudo chmod 770 admin_tools
+sudo chmod 2775 /srv/nfs/admin_tools
 ```
 
 ```
