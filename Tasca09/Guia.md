@@ -76,6 +76,14 @@ sudo useradd dev01
 sudo useradd -m admin01
 ```
 
+```
+sudo usermod -aG devs dev01
+```
+
+```
+sudo usermod -aG admins admin01
+```
+
 ![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
 Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
 
