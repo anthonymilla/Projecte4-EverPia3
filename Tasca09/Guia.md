@@ -349,7 +349,9 @@ sudo mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
 
 El root del servidor i d'aquest (client) ara si és el mateix i és soluciona.
 
+```
 sudo su root
+```
 
 ```
 touch /mnt/admin_tools/file01
