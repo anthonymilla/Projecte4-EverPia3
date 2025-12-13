@@ -54,11 +54,27 @@ Al zorin instal·lem Users and Groups per poder fer-ho, ja que de fabrica no dei
 
 Creació de Grups: Crear dos grups per al client: devs i admins.
 
+```
+sudo groupadd devs
+```
+
+```
+sudo groupadd admins
+```
+
 ![Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.
 Creació de Grups: Crear dos grups per al client: devs i admins.](img/Imatge10.png)
 
 Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).     
 Crear un usuari admin01 (membre del grup admins).
+
+```
+sudo useradd dev01
+```
+
+```
+sudo useradd -m admin01
+```
 
 ![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
 Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
