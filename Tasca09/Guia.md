@@ -154,6 +154,10 @@ sudo nano /etc/exports
 
 Afegim la següent linea.
 
+```
+/srv/nfs *(rw,sync,no_subtree_check)
+```
+
 ![Afegim la següent linea.](img/Imatge22.png)
 
 Fem restart.
@@ -199,7 +203,7 @@ sudo apt install nfs-common -y
 I ens connectem desde el client (Zorin) a l’Ubuntu.
 
 ```
-sudo showmount -e 192.168.56.186
+sudo showmount -e 192.168.56.106
 ```
 
 ![I ens connectem desde el client (Zorin) a l’Ubuntu.](img/Imatge28.png)
@@ -212,7 +216,11 @@ sudo showmount -e 192.168.56.186
 
 El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2), opcions ‘rw,sync’.
 
-![El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2).](img/Imatge29.png)
+```
+/srv/nfs *(rw,sync,no_subtree_check)
+```
+
+![El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2), opcions ‘rw,sync’.](img/Imatge29.png)
 
 Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.
 
@@ -223,13 +231,14 @@ sudo mkdir /mnt/admin_tools
 ```
 sudo mount -t nfs 192.168.56.106:/srv/nfs/admin_tools /mnt/admin_tools
 ```
+
 ![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge30.png)
 
 ![Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.](img/Imatge31.png)
 
 Mnt.
 
-![Està creada la carpeta mnt.](img/Imatge32.png)
+![Mnt.](img/Imatge32.png)
 
 No podem accedir al directori perquè el sistema ens rebutja l’entrada per manca d’autoritzacions. 
 
@@ -257,26 +266,42 @@ touch file1
 ls
 ```
 
-```
-ls -l /mnt/admin_tools
-```
-
 ![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge36.png)
 
 ![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge37.png)
 
-![Com a root no ens deixa crear-lo, però amb el admin si al tenir permisos, és l'error típic, el root del servidor i d'aquest (client) no és el mateix i aleshores per això falla.](img/Imatge38.png)
+Surt admin01 admins. En aquesta captura no surt correctament, però perquè és sàpiga.
+
+```
+ls -l /mnt/admin_tools
+```
+
+![Surt admin01 admins. En aquesta captura no surt correctament, però perquè és sàpiga.](img/Imatge38.png)
 
 | Prova 2 (La Solució) |
 |----------------------------------------|
 
+Modificar l'exportació del directori /srv/nfs/admin_tools per incloure l'opció 'no_root_squash'. Per fer que el root del servidor i d'aquest (client) ara si sigui el mateix, i que sí, canvïi alguna cosa. 
 
+```
+sudo nano /etc/exports
+```
 
+```
+/srv/nfs/admin_tools *(rw,sync,no_subtree_check,no_root_squash)
+```
 
+```
+/srv/nfs/dev_projectes *(rm,sync,no_subtree_check)
+```
 
-![Hola](img/Imatge39.png)
+```
+sudo systemctl restart nfs-kernel-server
+```
 
-![Hola](img/Imatge40.png)
+![Modificar l'exportació del directori /srv/nfs/admin_tools per incloure l'opció 'no_root_squash'. Per fer que el root del servidor i d'aquest (client) ara si sigui el mateix, i que sí, canvïi alguna cosa. ](img/Imatge39.png)
+
+![Modificar l'exportació del directori /srv/nfs/admin_tools per incloure l'opció 'no_root_squash'. Per fer que el root del servidor i d'aquest (client) ara si sigui el mateix, i que sí, canvïi alguna cosa. ](img/Imatge40.png)
 
 ![Hola](img/Imatge41.png)
 
@@ -311,9 +336,6 @@ ls -l /mnt/admin_tools
 ![Hola](img/Imatge56.png)
 
 ![Hola](img/Imatge57.png)
-
-![Hola](img/Imatge58.png)
-
 
 
 
