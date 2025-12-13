@@ -408,7 +408,7 @@ sudo mkdir /mnt/dev_projectes
 
 ![Des del client, muntar el recurs compartit a /mnt/dev_projects i provar d'escriure-hi com a usuari dev01. Hauria de funcionar.](img/Imatge47.png)
 
-Anem a configuració, després anem a xarxa, Ethernet (enp0s8), ha d’estar connectat i bàsicament anem a IPv4 i podem fer-ho manual (Address, Netmask) amb una IP del rang, com podria ser 192.168.56.127 i Netmask què és 255.255.255.0, sinó podem fer-ho automàtic, Automatic (DHCP), la seleccionem i apply. 
+Anem a configuració, després anem a xarxa, Ethernet (enp0s8), ha d’estar connectat i bàsicament anem a IPv4 i podem fer-ho manual (Address, Netmask) amb una IP del rang, com podria ser 192.168.56.127 i Netmask què és 255.255.255.0, sinó podem fer-ho automàtic, Automatic (DHCP), la seleccionem i apply.          
 Després:
 
 ```
@@ -438,7 +438,7 @@ touch file03
 
 ![Entrem a dev01 amb login i creem l’arxiu correctament.](img/Imatge49.png)
 
-Desmuntar el recurs i canviar manualment la IP del client a 192.168.56.100. Tornar a provar d'escriure al directori muntat com a usuari dev01 i comprovar que només funciona la lectura.
+Desmuntar el recurs i canviar manualment la IP del client a 192.168.56.100. Tornar a provar d'escriure al directori muntat com a usuari dev01 i comprovar que només funciona la lectura.            
 Anem a configuració, després anem a xarxa, Ethernet (enp0s8), ha d’estar connectat i bàsicament anem a IPv4 i hi posem en Address i Netmask IP (192.168.56.140) i Netmask que és 255.255.255.0.
 
 ![Desmuntar el recurs i canviar manualment la IP del client a 192.168.56.100. Tornar a provar d'escriure al directori muntat com a usuari dev01 i comprovar que només funciona la lectura.
