@@ -110,11 +110,15 @@ sudo mkdir /nfs/dev_projectes
 Crear el directori per a les eines d'administració: 
 /srv/nfs/admin_tools
 ```
-sudo su
+cd /srv
 ```
 
 ```
-sudo mkdir /srv/nfs/admin_tools
+sudo mkdir /nfs
+```
+
+```
+sudo mkdir nfs/admin_tools
 ```
 
 ![Crear el directori per a les eines d'administració: 
