@@ -377,6 +377,10 @@ ls -l /mnt/admin_tools
 Editar /etc/exports per afegir dues exportacions per al mateix directori. El client vol que la xarxa d'administració (p.ex., 192.168.56.0/24) hi pugui escriure, però que la xarxa de consultors (simularem que és una altra IP, p.ex., 192.168.56.100) només pugui llegir.
 
 ```
+sudo nano /etc/exports
+```
+
+```
 /srv/nfs/admin_tools *(rw,sync,no_subtree_check,no_root_squash)
 ```
 
