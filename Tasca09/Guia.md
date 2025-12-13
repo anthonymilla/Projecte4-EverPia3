@@ -118,7 +118,7 @@ sudo mkdir /nfs
 ```
 
 ```
-sudo mkdir nfs/admin_tools
+sudo mkdir /nfs/admin_tools
 ```
 
 ![Crear el directori per a les eines d'administració: 
