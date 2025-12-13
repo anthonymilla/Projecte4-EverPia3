@@ -354,7 +354,7 @@ sudo su root
 ```
 
 ```
-touch /mnt/admin_tools/file01
+touch /mnt/admin_tools/file02
 ```
 
 ```
