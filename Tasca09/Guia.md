@@ -526,5 +526,12 @@ ls -l /mnt/
 ![Reiniciar el client i verificar que els recursos compartits s'han muntat correctament.](img/Imatge57.png)
 
 
+| Conclusió |
+|----------------------------------------|
+
+**En aquesta prova de concepte s'ha demostrat el funcionament amb els requisits que ha demanat l'empresa client, però ja ets un tècnic prou experimentat per saber que aquesta solució té moltes limitacions i problemes de seguretat. Quines recomanacions faries al client per millorar aquesta solució en un futur? Pensa en termes d'autenticació centralitzada i gestió d'usuaris i permisos.**
+
+Aquesta prova de concepte està bé, però aquest sistema així tal qual no serviria si algun dia doncs es vol ampliar. Aquesta solució té moltes limitacions i problemes de seguretat. Jo de recomanacions que faria al client per millorar aquesta solució en un futur seria organitzar millor els permisos, que no depenguin de cada equip, després una altra recomenació sería centralitzar els usuaris i grups amb un servei com LDAP, també es podrien usar altres serveis que hi han com Kerberos, Active Directory o FreeIPA, que són molt útils ja que tosts aquests permeten tenir els usuaris i permisos centralitzats i doncs molt més controlats i una altra recomanació unificar la gestió dels permisos des del servidor, així tot queda més controlat i no hi ha diferències entre equips.
+
 [Anar a l'enunciat](../Tasca09/README.md)  
 [Anar a la pàgina inicial](../README.md)
