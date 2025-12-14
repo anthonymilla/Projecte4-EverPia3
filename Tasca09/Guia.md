@@ -28,6 +28,12 @@ Per instalar ssh:
 sudo apt install ssh
 ```
 
+Ping.
+
+```
+ping 127.0.0.1
+```
+
 ![Instal·lem el ssh per si de cas a les dues màquines, després fem ping per veure que ambdues màquines tinguin accés a Internet.](img/Imatge06.png)
 
 ![Instal·lem el ssh per si de cas a les dues màquines, després fem ping per veure que ambdues màquines tinguin accés a Internet.](img/Imatge07.png)
