@@ -248,6 +248,10 @@ El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l
 /srv/nfs *(rw,sync,no_subtree_check)
 ```
 
+```
+sudo systemctl restart nfs-kernel-server
+```
+
 ![El client necessita que el directori /srv/nfs/admin_tools sigui accessible per l'equip d'administradors. A vegades, l'usuari root del client (que sou vosaltres, els consultors) necessitarà escriure en aquest directori per instal·lar eines. Aquí mostrarem un error típic i la seva solució. Anem a /etc/exports i posem/deixem la linea del final (que ja estava posada de la Fase 2), opcions ‘rw,sync’.](img/Imatge29.png)
 
 Des del client, muntar aquest recurs compartit a /mnt/admin_tools. Com a root del client, intentar crear un fitxer dins d'aquest directori muntat.
