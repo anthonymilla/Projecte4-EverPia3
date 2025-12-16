@@ -267,8 +267,25 @@ sudo apt install duplicity -y
 
 ![Hola](Img/Imatge65.png)
 
+![Hola](Img/Imatge66.png)
 
+![Hola](Img/Imatge67.png)
 
+![Hola](Img/Imatge68.png)
+
+![Hola](Img/Imatge69.png)
+
+![Hola](Img/Imatge70.png)
+
+![Hola](Img/Imatge71.png)
+
+![Hola](Img/Imatge72.png)
+
+![Hola](Img/Imatge73.png)
+
+![Hola](Img/Imatge74.png)
+
+![Hola](Img/Imatge75.png)
 
 
 [Anar a l'enunciat](../Tasca02/README.md)  
