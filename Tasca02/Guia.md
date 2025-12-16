@@ -267,7 +267,7 @@ sudo fallocate -l 10MB arx04
 
 ![Creem un parell d’usuaris més al sistema de manera que tinguin carpeta personal i creem 4 arxius de 10 MB a la carpeta home del nostre usuari.](Img/Imatge54.png)
 
-Ara fem un còpia de seguretat de la carpeta /home.
+Ara fem una còpia de seguretat de la carpeta /home.
 
 ```
 sudo duplicity full /home file:///media/backup/
