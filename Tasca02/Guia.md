@@ -303,6 +303,10 @@ sudo rm arx04
 ls
 ```
 
+![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge57.png)
+
+![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge58.png)
+
 ```
 sudo duplicity restore --force file:///media/backup/ /home
 ```
@@ -310,10 +314,6 @@ sudo duplicity restore --force file:///media/backup/ /home
 ```
 ls
 ```
-
-![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge57.png)
-
-![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge58.png)
 
 ![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge59.png)
 
