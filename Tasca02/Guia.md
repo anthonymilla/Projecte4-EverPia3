@@ -445,7 +445,7 @@ Posem aquest text:
 
 ```
 0 23 * * 0 /home/usuari/fullbackup.sh
-0 23 * * 1-6 /home/usuari/incremental.sh
+0 23 * * 1-6 /home/usuari/incrementalbackup.sh
 ```
 
 ![Posem aquest text:](Img/Imatge74.png)
