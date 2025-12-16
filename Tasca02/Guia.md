@@ -277,9 +277,9 @@ sudo duplicity full /home file:///media/backup/
 ls /media/backup/
 ```
 
-![Ara fem un còpia de seguretat de la carpeta /home.](Img/Imatge55.png)
+![Ara fem una còpia de seguretat de la carpeta /home.](Img/Imatge55.png)
 
-![Ara fem un còpia de seguretat de la carpeta /home.](Img/Imatge56.png)
+![Ara fem una còpia de seguretat de la carpeta /home.](Img/Imatge56.png)
 
 Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.
 
