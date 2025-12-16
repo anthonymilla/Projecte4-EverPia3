@@ -235,57 +235,224 @@ sudo apt install duplicity -y
 
 ![Instal·lem Duplicity. ](Img/Imatge51.png)
 
+Creem un parell d’usuaris més al sistema de manera que tinguin carpeta personal i creem 4 arxius de 10 MB a la carpeta home del nostre usuari.
 
+```
+sudo useradd -m -s /bin/bash usuari01
+```
 
+```
+sudo useradd -m -s /bin/bash usuari02
+```
 
+```
+sudo fallocate -l 10MB arx01
+```
 
-![Hola](Img/Imatge52.png)
+```
+sudo fallocate -l 10MB arx02
+```
 
-![Hola](Img/Imatge53.png)
+```
+sudo fallocate -l 10MB arx03
+```
 
-![Hola](Img/Imatge54.png)
+```
+sudo fallocate -l 10MB arx04
+```
 
-![Hola](Img/Imatge55.png)
+![Creem un parell d’usuaris més al sistema de manera que tinguin carpeta personal i creem 4 arxius de 10 MB a la carpeta home del nostre usuari.](Img/Imatge52.png)
 
-![Hola](Img/Imatge56.png)
+![Creem un parell d’usuaris més al sistema de manera que tinguin carpeta personal i creem 4 arxius de 10 MB a la carpeta home del nostre usuari.](Img/Imatge53.png)
 
-![Hola](Img/Imatge57.png)
+![Creem un parell d’usuaris més al sistema de manera que tinguin carpeta personal i creem 4 arxius de 10 MB a la carpeta home del nostre usuari.](Img/Imatge54.png)
 
-![Hola](Img/Imatge58.png)
+Ara fem un còpia de seguretat de la carpeta /home.
 
-![Hola](Img/Imatge59.png)
+```
+sudo duplicity full /home file:///media/backup/
+```
 
-![Hola](Img/Imatge60.png)
+```
+ls /media/backup/
+```
 
-![Hola](Img/Imatge61.png)
+![Ara fem un còpia de seguretat de la carpeta /home.](Img/Imatge55.png)
 
-![Hola](Img/Imatge62.png)
+![Ara fem un còpia de seguretat de la carpeta /home.](Img/Imatge56.png)
 
-![Hola](Img/Imatge63.png)
+Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.
 
-![Hola](Img/Imatge64.png)
+```
+sudo rm arx01
+```
 
-![Hola](Img/Imatge65.png)
+```
+sudo rm arx02
+```
 
-![Hola](Img/Imatge66.png)
+```
+sudo rm arx03
+```
 
-![Hola](Img/Imatge67.png)
+```
+sudo rm arx04
+```
 
-![Hola](Img/Imatge68.png)
+```
+ls
+```
 
-![Hola](Img/Imatge69.png)
+```
+sudo duplicity restore --force file:///media/backup/ /home
+```
 
-![Hola](Img/Imatge70.png)
+```
+ls
+```
 
-![Hola](Img/Imatge71.png)
+![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge57.png)
 
-![Hola](Img/Imatge72.png)
+![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge58.png)
 
-![Hola](Img/Imatge73.png)
+![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge59.png)
 
-![Hola](Img/Imatge74.png)
+![Esborrem els arxius i fem un restore per comprovar com es recuperen els arxius.](Img/Imatge60.png)
 
-![Hola](Img/Imatge75.png)
+Afegim un nou arxiu de 4 MB i fem una nova còpia. Observem com ara ha fet una còpia incremental.
+
+```
+fallocate -l 4MB arx05
+```
+
+```
+sudo duplicity /home file:///media/backup/
+```
+
+![Afegim un nou arxiu de 4 MB i fem una nova còpia. Observem com ara ha fet una còpia incremental.](Img/Imatge61.png)
+
+![Afegim un nou arxiu de 4 MB i fem una nova còpia. Observem com ara ha fet una còpia incremental.](Img/Imatge62.png)
+
+Desmuntem la unitat de backup.
+
+```
+umount /media/backup
+```
+
+![Desmuntem la unitat de backup.](Img/Imatge63.png)
+
+Ara passaràs a automatitzar el procés de les còpies utilitzant uns scripts bàsics i el programador de tasques (cron). Un aspecte molt important a nivell de seguretat, és que la unitat de backup ha d’estar per defecte, desmuntada. De manera que el primer pas sempre serà muntar la unitat i el darrer desmuntar-la, un cop s’ha fet la còpia.
+
+Crea un script anomenat fullbackup.sh que realitzi la còpia completa de la carpeta /home i l’emmagatzemi al volum muntat. Usa la variable d’entorn PASSPHRASE (per donar valor a una variable d’entorn cal afegir a l’script una línia amb export PASSPHRASE=contrasenya) per no haver d’escriure la passphrase en el moment de l’execució. Recorda de donar permisos d’execució a l’script.
+
+Creem l'arxiu, entrem i creem l'script.
+
+```
+sudo mkdir fullbackup.sh
+```
+
+```
+sudo nano /fullbackup.sh
+```
+
+```
+!/bin/bash
+export PASSPHRASE="usuariusuari1234"
+mount /dev/sdb /media/backup
+duplicity full /home file:///media/backup/homebackup
+umount /media/backup
+```
+
+![Ara passaràs a automatitzar el procés de les còpies utilitzant uns scripts bàsics i el programador de tasques (cron). Un aspecte molt important a nivell de seguretat, és que la unitat de backup ha d’estar per defecte, desmuntada. De manera que el primer pas sempre serà muntar la unitat i el darrer desmuntar-la, un cop s’ha fet la còpia.
+Crea un script anomenat fullbackup.sh que realitzi la còpia completa de la carpeta /home i l’emmagatzemi al volum muntat. Usa la variable d’entorn PASSPHRASE (per donar valor a una variable d’entorn cal afegir a l’script una línia amb export PASSPHRASE=contrasenya) per no haver d’escriure la passphrase en el moment de l’execució. Recorda de donar permisos d’execució a l’script.
+Creem l'arxiu, entrem i creem l'script.](Img/Imatge64.png)
+
+![Ara passaràs a automatitzar el procés de les còpies utilitzant uns scripts bàsics i el programador de tasques (cron). Un aspecte molt important a nivell de seguretat, és que la unitat de backup ha d’estar per defecte, desmuntada. De manera que el primer pas sempre serà muntar la unitat i el darrer desmuntar-la, un cop s’ha fet la còpia.
+Crea un script anomenat fullbackup.sh que realitzi la còpia completa de la carpeta /home i l’emmagatzemi al volum muntat. Usa la variable d’entorn PASSPHRASE (per donar valor a una variable d’entorn cal afegir a l’script una línia amb export PASSPHRASE=contrasenya) per no haver d’escriure la passphrase en el moment de l’execució. Recorda de donar permisos d’execució a l’script.
+Creem l'arxiu, entrem i creem l'script.](Img/Imatge65.png)
+
+![Ara passaràs a automatitzar el procés de les còpies utilitzant uns scripts bàsics i el programador de tasques (cron). Un aspecte molt important a nivell de seguretat, és que la unitat de backup ha d’estar per defecte, desmuntada. De manera que el primer pas sempre serà muntar la unitat i el darrer desmuntar-la, un cop s’ha fet la còpia.
+Crea un script anomenat fullbackup.sh que realitzi la còpia completa de la carpeta /home i l’emmagatzemi al volum muntat. Usa la variable d’entorn PASSPHRASE (per donar valor a una variable d’entorn cal afegir a l’script una línia amb export PASSPHRASE=contrasenya) per no haver d’escriure la passphrase en el moment de l’execució. Recorda de donar permisos d’execució a l’script.
+Creem l'arxiu, entrem i creem l'script.](Img/Imatge66.png)
+
+Canviem els permisos, posem la següent comanda per canviar els permisos de manera que pugui executar.
+
+```
+sudo chmod +x fullbackup.sh
+```
+
+![Canviem els permisos, posem la següent comanda per canviar els permisos de manera que pugui executar.](Img/Imatge67.png)
+
+Programem al cron com a root l’execució de l’script els diumenges a les 23:00.
+
+```
+crontab -e
+```
+
+![Programem al cron com a root l’execució de l’script els diumenges a les 23:00.](Img/Imatge68.png)
+
+Posem aquest text:
+
+```
+0 23 * * 0 /home/usuari/fullbackup.sh
+```
+
+![Posem aquest text:](Img/Imatge69.png)
+
+Creem un segon script anomenat incrementalbackup.sh que realitzi còpies incrementals de la mateixa carpeta que abans. Hem de fixar el valor de la variable PASSPHRASE igual que al punt 5 i donar permisos d’execució a l’script.
+
+Creem l'arxiu, entrem i creem l'script.
+
+```
+sudo mkdir incrementalbackup.sh
+```
+
+```
+sudo nano /incrementalbackup.sh
+```
+
+```
+!/bin/bash
+export PASSPHRASE="usuariusuari1234"
+mount /dev/sdb /media/backup
+duplicity incremental /home file:///media/backup/homebackup
+umount /media/backup
+```
+
+![Creem un segon script anomenat incrementalbackup.sh que realitzi còpies incrementals de la mateixa carpeta que abans. Hem de fixar el valor de la variable PASSPHRASE igual que al punt 5 i donar permisos d’execució a l’script.
+Creem l'arxiu, entrem i creem l'script.](Img/Imatge70.png)
+
+![Creem un segon script anomenat incrementalbackup.sh que realitzi còpies incrementals de la mateixa carpeta que abans. Hem de fixar el valor de la variable PASSPHRASE igual que al punt 5 i donar permisos d’execució a l’script.
+Creem l'arxiu, entrem i creem l'script.](Img/Imatge71.png)
+
+Canviem els permisos, posem la següent comanda per canviar els permisos de manera que pugui executar.
+
+```
+sudo chmod +x incrementalbackup.sh 
+```
+
+![Canviem els permisos, posem la següent comanda per canviar els permisos de manera que pugui executar.](Img/Imatge72.png)
+
+Programem al cron com a root l’execució de l’script a les 23:00 dels dilluns als diumenges.
+
+```
+crontab -e
+```
+
+![Programem al cron com a root l’execució de l’script a les 23:00 dels dilluns als diumenges.](Img/Imatge73.png)
+
+Posem aquest text:
+
+```
+0 23 * * 0 /home/usuari/fullbackup.sh
+0 23 * * 1-6 /home/usuari/incremental.sh
+```
+
+![Posem aquest text:](Img/Imatge74.png)
+
+Desem canvis.
+
+![Desem canvis.](Img/Imatge75.png)
 
 
 [Anar a l'enunciat](../Tasca02/README.md)  
