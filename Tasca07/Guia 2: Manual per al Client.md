@@ -1,3 +1,5 @@
+Nil i Anthony
+
 # Guia 2: Manual per al Client (Usuari Final)
 Aquesta guia és la que enviarem als nostres clients quan tinguin una incidència. Ha de ser extremadament simple, visual i no tècnica.
 
