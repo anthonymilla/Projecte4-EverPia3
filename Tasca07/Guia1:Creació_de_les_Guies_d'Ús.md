@@ -175,3 +175,6 @@ A les opcions de Actions (Accions), hi ha:
 
 #### Bones pràctiques de seguretat (p. ex., tancar sempre la sessió, no desar contrasenyes de clients).
 Bones pràctiques de seguretat serien mantenir sempre la sessió tancada quan no s’utilitza, perquè aixís si deixes l’ordinador sense vigilància ningú pugui entrar al teu compte, utilitzar contrasenyes segures, perquè ningun intrús pugui entrar amb facilitat. També no deixar informació sensible a la vista, per evitar que algú vegi la informació sense voler (un intrús) i sempre assegurar-se que només les persones qué doncs són fiables accedeixen a les dades, perquè no hi hagi qualsevol problema en general (persones no fiables que poden fer-te perdre dades importants d’algú, intrusos). 
+
+[Anar a l'enunciat](../Tasca07/README.md)  
+[Anar a la pàgina inicial](../README.md)
