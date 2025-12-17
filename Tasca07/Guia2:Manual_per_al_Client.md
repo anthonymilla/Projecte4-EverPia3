@@ -68,3 +68,6 @@ Finalment, en els dos tipus de connexions hi ha aquestes configuracions que ens 
 Un cop ja hàgim acabat podrem clicar a “Close session” per finalitzar la connexió remota.
 
 ![](img/13.png)
+
+[Anar a l'enunciat](../Tasca07/README.md)  
+[Anar a la pàgina inicial](../README.md)
