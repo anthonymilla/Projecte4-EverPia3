@@ -54,6 +54,6 @@ Ha d'explicar el procés des del punt de vista de l'usuari que rep ajuda. Ha d'i
 - https://www.genbeta.com/herramientas/chrome-remote-desktop-que-como-funciona-como-puedes-usarlo-para-controlar-tu-pc-forma-remota
 
 [Anar a la Fase 1](../Tasca07/Fase1.md)     
-[Anar a la Guia1:Creació de les Guies d'Ús.md](../Tasca07/Guia1:Creació_de_les_Guies_d'Ús.md)     
-[Anar a la Guia2:Manual per al Client.md](../Tasca07/Guia2:Manual_per_al_Client.md)     
+[Anar a la Guia 1: Creació de les Guies d'Ús.md](../Tasca07/Guia1:Creació_de_les_Guies_d'Ús.md)     
+[Anar a la Guia 2: Manual per al Client.md](../Tasca07/Guia2:Manual_per_al_Client.md)     
 [Anar a la pàgina inicial](../README.md)
