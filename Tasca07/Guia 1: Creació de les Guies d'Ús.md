@@ -1,3 +1,5 @@
+Nil i Anthony
+
 # CREACIÓ DE LES GUIES D’ÚS (DOCUMENTACIÓ)
 Un cop heu seleccionat l'eina a la Fase 1, heu de crear la documentació oficial per al seu ús. Aquesta documentació és crucial i ha de tenir dos enfocaments diferents:
 
