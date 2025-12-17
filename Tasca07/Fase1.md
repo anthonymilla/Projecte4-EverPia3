@@ -1,7 +1,5 @@
 Nil i Anthony
 
-Anthony i Nil
-
 #### Taula Comparativa
 
 | Criteri                 | TeamViewer                                                        | AnyDesk                                                         | Chrome Remote Desktop                              | DWService                                         |
