@@ -32,3 +32,6 @@ Per què TeamViewer és la millor opció corporativa:
 - Adquirir les llicències necessàries segons el nombre de tècnics i volum de clients.
 - Preparar guies ràpides per a clients sobre instal·lació i ús.
 - Realitzar una formació interna breu per a tècnics: gestió d’equips, polítiques de seguretat, accés no atès i gravació de sessions.
+
+[Anar a l'enunciat](../Tasca07/README.md)  
+[Anar a la pàgina inicial](../README.md)
