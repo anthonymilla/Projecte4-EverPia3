@@ -6,4 +6,5 @@ Cada setmana es farà un revisió de l’estat del Planner per això és molt im
 
 Aquí teniu el **product backlog** d’aquest projecte.
 
+[Anar a la Solució](../Producte03/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
