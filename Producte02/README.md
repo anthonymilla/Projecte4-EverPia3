@@ -17,4 +17,5 @@ La sessió es plantejarà com una presentació professional al client, on haureu
 Durant la presentació només es mostra el resultat final, no es corregeix ni es modifica en directe.  
 Es valora la capacitat de comunicar un projecte digital de manera professional.
 
+[Anar a la Solució](../Producte02/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
