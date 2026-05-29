@@ -48,4 +48,5 @@ https://documentation.ubuntu.com/server/how-to/networking/install-nfs/
 - **R00t (2025, 25 abril).** How To Install CUPS Print Server on Ubuntu 24.04 LTS. Idroot.  
 https://idroot.us/install-cups-print-server-ubuntu-24-04/
 
+[Anar a la Solució](../Tasca10/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
