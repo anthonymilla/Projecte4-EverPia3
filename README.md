@@ -114,8 +114,6 @@ L’alumne formarà part d’un equip júnior que haurà de:
 
 Aquest conjunt de reptes exigeix **visió global, constància i una actitud resolutiva** pròpia d’un perfil júnior que està a punt de fer el salt cap a la seva pròpia trajectòria.
 
----
-
 ## Tasques:
 
 - [Tasca00-Presentació del projecte i creació del Kanban i el repositori](/Tasca00)
