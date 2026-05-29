@@ -139,4 +139,3 @@ Aquest conjunt de reptes exigeix **visió global, constància i una actitud reso
 - [Producte2-Presentació i Projecció de la Maqueta web al Client](/Producte02)
 - [Producte3-Kanban del projecte](/Producte03)
 - [Producte4-Fitxes d’Economia Circular](/Producte04)
-
