@@ -13,4 +13,5 @@
 
 **[Enllaç al document que conté tot el Product backlog](https://docs.google.com/document/d/13xCUZybiYh_IUbw7HdvwIjIal8azPzd1fI7TQtXgEPI/edit?usp=drive_link)**
 
+[Anar a la Solució](../Tasca00/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
