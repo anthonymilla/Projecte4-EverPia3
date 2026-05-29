@@ -32,4 +32,5 @@ Es tracta d’una tasca **individual.**
   https://www.incibe.es/empresas/blog/tienes-tu-plan-recuperacion-desastres  
 - Pàgina oficial de **[Rescuezilla.](https://rescuezilla.com/)**
 
+[Anar a la Solució](../Tasca03/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
