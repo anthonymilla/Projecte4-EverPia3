@@ -24,4 +24,5 @@ No cal que lliureu cap activitat, però sí que és molt important que pareu ate
 Ha arribat el dia i ja esteu preparats per assolir el nivell de **SOP Specialist**, superant un exigent examen pràctic que posarà a prova els vostres coneixements.  
 Per fer la prova, únicament podreu portar un full manuscrit amb aquelles anotacions que creieu necessàries.
 
+[Anar a la Solució](../Tasca08/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
