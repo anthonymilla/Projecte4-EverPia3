@@ -21,4 +21,5 @@ Abans d’afrontar un projecte real amb un client d’EverPia, cal conèixer les
 Si vols aprendre més sobre **FIGMA**, et recomanem fer aquest curs  
 https://academia.openwebinars.net/portada/figma/?
 
+[Anar a la Solució](../Tasca11/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
