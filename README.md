@@ -116,26 +116,48 @@ Aquest conjunt de reptes exigeix **visió global, constància i una actitud reso
 
 ---
 
-## Tasques
+## Tasques:
+
 - [Tasca00-Presentació del projecte i creació del Kanban i el repositori](/Tasca00)
+
 - [Tasca01-DRP: còpies de seguretat. Estudi cas client](/Tasca01)
+
 - [Tasca02-DPR: còpies de seguretat. Cas pràctic](/Tasca02)
+
 - [Tasca03-Pla de recuperació davant desastres: imatges del sistema](/Tasca03)
+
 - [Tasca04-Accés remot](/Tasca04)
+
 - [Tasca05-Accés Remot. Connexió via SSH](/Tasca05)
+
 - [Tasca06-Accés remot. Escriptori remot (RDP)](/Tasca06)
+
 - [Tasca07-Accés remot. Serveis d’assistència remota](/Tasca07)
+
 - [Tasca08-Auditoria de Qualitat i Estandardització de Servidors](/Tasca08)
+
 - [Tasca09-Servidor fitxers Linux. NFS](/Tasca09)
+
 - [Tasca10-Servidor impressió Linux. CUPS](/Tasca10)
+
 - [Tasca11-Introducció a Figma: nocions bàsiques de disseny d’interfícies](/Tasca11)
+
 - [Tasca12-Fonaments del Disseny Web Comercial: Landing Page + Procés de Checkout](/Tasca12)
+
 - [Tasca13-Disseny d’un E-commerce en Figma (Landing Page + Checkout)](/Tasca13)
+
 - [Tasca14-Sostenibilitat. Prova Escrita](/Tasca14)
+
 - [Tasca15-Com de circular és la meva família professional?](/Tasca15)
+
 - [Tasca16-Crea el teu pla d’empresa TECH](/Tasca16)
+
 ## Productes
+
 - [Producte01-GitHub. Treballant de forma col·laborativa: forks i pull request.](/Producte01)
+
 - [Producte02-Presentació i Projecció de la Maqueta web al Client](/Producte02)
+
 - [Producte03-Kanban del projecte](/Producte03)
+
 - [Producte04-Fitxes d’Economia Circular](/Producte04)
