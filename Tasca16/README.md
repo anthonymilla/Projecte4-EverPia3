@@ -121,4 +121,5 @@ Tot el que fareu deriva directament dels apartats del dossier.
 - Tots els apartats integrats (màrqueting mix complet)
 - Capacitat de síntesi i comunic
 
+[Anar a la Solució](../Tasca16/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
