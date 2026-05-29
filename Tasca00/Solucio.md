@@ -2,7 +2,7 @@
 
 ## Repositori de GitHub:
 
-[Repositori de GitHub](https://github.com/anthonymilla/Projecte3-Everpia2/tree/main)
+[Repositori de GitHub](https://github.com/anthonymilla/Projecte4-EverPia3/tree/main)
 
 ## Kanban:
 
