@@ -37,4 +37,5 @@ Les maquetes han de permetre navegar:
 - Amb codi de descompte.  
 - Amb recollida en botiga.  
 
+[Anar a la Solució](../Tasca13/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
