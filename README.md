@@ -60,8 +60,6 @@ Durant quatre setmanes, hauràs de donar resposta a encàrrecs reals dins l’ec
 
 Aquest projecte vol posar-te en situació d’assumir, amb autonomia progressiva, rols i responsabilitats similars als que trobaries en una empresa tecnològica de mida petita o mitjana.
 
----
-
 ## Objectius generals del projecte
 Aquest projecte integra tots els mòduls i sintetitza les experiències viscudes en els projectes anteriors.  
 L’alumne haurà de:
@@ -89,8 +87,6 @@ L’alumne haurà de:
 
 8. **Millorar competències transversals essencials**  
    - Autonomia, comunicació, treball en equip, documentació rigorosa i gestió de problemes complexos.
-
----
 
 ## El repte: preparar EverPia per al seu salt tecnològic
 EverPia es troba en ple creixement i necessita reforçar la seva infraestructura per escalar serveis, millorar la resiliència i oferir noves solucions digitals als seus clients.  
