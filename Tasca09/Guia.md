@@ -71,8 +71,9 @@ sudo groupadd admins
 ![Abans de compartir res, hem de preparar els usuaris i els directoris al Servidor.
 Creació de Grups: Crear dos grups per al client: devs i admins.](img/Imatge10.png)
 
-Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).     
-Crear un usuari admin01 (membre del grup admins).
+Creació d'Usuaris: 
+- Crear un usuari dev01 (membre del grup devs).     
+- Crear un usuari admin01 (membre del grup admins).
 
 ```
 sudo useradd dev01
@@ -90,11 +91,13 @@ sudo usermod -aG devs dev01
 sudo usermod -aG admins admin01
 ```
 
-![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
-Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
+![Creació d'Usuaris: 
+-Crear un usuari dev01 (membre del grup devs).
+-Crear un usuari admin01 (membre del grup admins).](img/Imatge11.png)
 
-![Creació d'Usuaris: Crear un usuari dev01 (membre del grup devs).
-Crear un usuari admin01 (membre del grup admins).](img/Imatge12.png)
+![Creació d'Usuaris: 
+-Crear un usuari dev01 (membre del grup devs).
+-Crear un usuari admin01 (membre del grup admins).](img/Imatge12.png)
 
 Crear el directori per als projectes de desenvolupament (he posat projectes, perdó*): 
 /srv/nfs/dev_projects
@@ -131,12 +134,9 @@ sudo mkdir /nfs/admin_tools
 /srv/nfs/admin_tools](img/Imatge15.png)
 
 Permisos del Servidor:
-
-Es vol que els developers tinguin control total sobre els seus projectes.
-
-Es vol que els administradors tinguin control sobre les seves eines.
-
-En tots dos casos, l'usuari propietari serà root.
+- Es vol que els developers tinguin control total sobre els seus projectes.
+- Es vol que els administradors tinguin control sobre les seves eines.
+- En tots dos casos, l'usuari propietari serà root.
 
 ```
 sudo chown root:devs /srv/nfs/dev_projectes
@@ -158,9 +158,15 @@ sudo chmod 2775 /srv/nfs/admin_tools
 ls -l /srv/nfs/
 ```
 
-![Permisos del Servidor: Es vol que els developers tinguin control total sobre els seus projectes. Es vol que els administradors tinguin control sobre les seves eines. En tots dos casos, l'usuari propietari serà root.](img/Imatge16.png)
+![Permisos del Servidor: 
+-Es vol que els developers tinguin control total sobre els seus projectes. 
+-Es vol que els administradors tinguin control sobre les seves eines. 
+-En tots dos casos, l'usuari propietari serà root.](img/Imatge16.png)
 
-![Permisos del Servidor: Es vol que els developers tinguin control total sobre els seus projectes. Es vol que els administradors tinguin control sobre les seves eines. En tots dos casos, l'usuari propietari serà root.](img/Imatge17.png)
+![Permisos del Servidor: 
+-Es vol que els developers tinguin control total sobre els seus projectes. 
+-Es vol que els administradors tinguin control sobre les seves eines. 
+-En tots dos casos, l'usuari propietari serà root.](img/Imatge17.png)
 
 Com a pas final, instal·lem els paquets necessaris per al servei NFS al servidor i es configurarà l'exportació dels directoris amb les opcions adequades.
 
