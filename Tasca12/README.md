@@ -12,4 +12,5 @@ Exemple d’una web amb una landing page quilomètrica:
 
 https://romualdfons.com/monetizacion-webs/  
 
+[Anar a la Solució](../Tasca12/Solucio.md)    
 [Anar a la pàgina inicial](../README.md)
